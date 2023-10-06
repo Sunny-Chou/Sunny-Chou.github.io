@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>分享課程心得平台</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            overflow-x: hidden;
+            max-height: 100vh;
+        }
+
+        #content {
+            display: flex;
+            margin-top: 120px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            z-index: 1;
+        }
+
+        #board-list {
+            border-right: 1px solid #ccc;
+            padding-right: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #dc9260;
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 80vh;
+        }
+
+        #board-list ul {
+            margin-left: 0;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        #board-list li {
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            justify-content: center;
+        }
+
+        #article {
+            flex: 2;
+            padding: 0 20px;
+            overflow: auto;
+            overflow-x: hidden;
+            max-height: 80vh;
+        }
+
+        #article ul {
+            margin-left: 0;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        #article li {
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            justify-content: center;
+        }
+
+        #article::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        #article-container {
+            padding: 10px;
+        }
+
+        #board-list::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        #comments::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        .comment-container {
+            border-bottom: 1px solid #5e4d31;
+            padding: 10px;
+        }
+
+        .list-container {
+            padding: 10px;
+            width: 100%;
+        }
+
+        #comments {
+            flex: 1;
+            padding: 0 20px;
+            text-align: center;
+            border-left: 1px solid #ccc;
+            overflow: auto;
+            overflow-x: hidden;
+            max-height: 80vh;
+        }
+
+        #sidebar {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        /* 根據需要調整樣式 */
+
+        h1 {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .no li {
+            margin-bottom: 10px;
+        }
+
+        /* 假設連結有下劃線 */
+
+        .a1 {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .a2 {
+            text-decoration: none;
+            color: #dc9260;
+            font-size: 20px;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .i {
+            /*大頭像*/
+            width: 60px;
+        }
+
+        .i2 {
+            /*大愛心檢舉*/
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        .i3 {
+            /*小愛心小檢舉*/
+            width: 20px;
+            height: 20px;
+            padding: 0 5px;
+        }
+
+        .i4 {
+            /*小頭像*/
+            width: 40px;
+            height: 40px;
+        }
+
+        .i5 {
+            /*小愛心小檢舉*/
+            width: 26px;
+            height: 26px;
+            padding: 0px 5px;
+        }
+
+        .j {
+            /*大標題*/
+            font-size: 30px;
+        }
+
+        .j2 {
+            /*小標題*/
+            font-size: 18px;
+            display: flex;
+            line-height: 100%;
+            margin: 0;
+        }
+
+        .j3 {
+            /*大內文*/
+            font-size: 18px;
+        }
+
+        .j4 {
+            /*小內文*/
+            font-size: 10px;
+            display: flex;
+            line-height: 100%;
+            margin: 0;
+        }
+
+        .j5 {
+            /*小內文*/
+            font-size: 2px;
+            display: flex;
+        }
+
+        .k {
+            /*大名字*/
+            font-size: 18px;
+            padding: 0 20px;
+        }
+
+        .k2 {
+            /*小名字*/
+            font-size: 10px;
+            padding: 0 5px;
+        }
+
+        .l {
+            /*留言*/
+            font-size: 18px;
+            padding: 0 80px;
+        }
+
+        .liu {
+            font-size: 18px;
+            background-color: #dc9260;
+            color: white;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        .lb {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .lb2 {
+            display: flex;
+        }
+
+        .in {
+            width: 90%;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            font-size: 18px;
+            font-family: 微軟正黑體;
+        }
+
+        .in2 {
+            width: 90%;
+            height: 50%;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            font-size: 18px;
+            font-family: 微軟正黑體;
+        }
+
+        .in3 {
+            width: 10%;
+            height: 60px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            font-size: 18px;
+            font-family: 微軟正黑體;
+            background-color: #dc9260;
+            color: white;
+        }
+
+        ul.menu {
+            /*把文字設定為行內元素、改變字體*/
+            display: inline-block;
+            font-size: 35px;
+            color: #FFFFFF;
+        }
+
+        ul.menu>li {
+            float: left;
+            /*靠左對齊*/
+        }
+
+        ul.menu a {
+            /*設定框內的文字、條件*/
+            background-color: #FDBC96;
+            color: white;
+            display: block;
+            padding: 0 20px;
+            text-decoration: none;
+            line-height: 70px;
+            opacity: 1;
+
+
+        }
+
+        a {
+            /*設定框內的文字、條件*/
+            text-decoration: none;
+
+        }
+
+        ul.menu a:hover {
+            /* 滑鼠滑入按鈕變色*/
+            background-color: pink;
+            color: #fff;
+        }
+
+        ul.menu a:active {
+            /* 滑鼠滑入按鈕變色*/
+            background-color: pink;
+            color: #fff;
+        }
+
+        #menu {
+            /*保持在畫面上方*/
+            position: fixed;
+            top: -5px;
+            left: 150px;
+            z-index: 3;
+            font-weight: bold;
+        }
+
+        ul li {
+            position: relative;
+
+        }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+        }
+
+        ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        ul li:hover>ul {
+            display: block;
+        }
+
+        .m1 {
+            font-size: 20px;
+        }
+
+        #rectangle {
+            position: fixed;
+            top: 30px;
+            left: 50px;
+            width: 1400px;
+            height: 70px;
+            background-color: #FDBC96;
+            z-index: 1;
+        }
+
+        #circle {
+            position: fixed;
+            top: 30px;
+            left: 1420px;
+            width: 70px;
+            height: 70px;
+            background-color: #FDBC96;
+            -moz-border-radius: 35px;
+            -webkit-border-radius: 35px;
+            border-radius: 35px;
+            z-index: 1;
+        }
+
+        #logo {
+            position: fixed;
+            height: 100px;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+        }
+
+        #out {
+            position: fixed;
+            top: 40px;
+            left: 1300px;
+            width: 100px;
+            height: 50px;
+            font-size: 35px;
+            color: #6B4F0E;
+            z-index: 5;
+            border: 0;
+            background-color: #FDBC96;
+        }
+
+        #index {
+            display: inline-block;
+            margin-left: 50px;
+            margin-top: 120px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #selectedIdentity {
+            position: absolute;
+            top: 150px;
+            left: 100px;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#dialog").dialog({
+                autoOpen: false,
+                show: {
+                    effect: "explode",
+                    duration: 500
+                },
+                hide: {
+                    effect: "fade",
+                    duration: 800
+                },
+                width: 481
+            });
+        });
+    </script>
+</head>
+
+<body style="background-color:#FCF6E8">
+    <div id="dialog" title="選擇你分享筆記的身分">
+        <div style="display: flex;"><img src="t1.png" class="i">
+            <p class="k">猴猴大師</p>
+        </div>
+        <div style="display: flex;"><img src="t0.png" class="i">
+            <p class="k">徐以潔</p>
+        </div>
+        <div style="display: flex;"><img src="t0.png" class="i">
+            <p class="k">數位學習科技學系 三年級</p>
+        </div>
+    </div>
+    <p id="selectedIdentity"></p>
+    <img id="logo" src="logo.png" />
+    <ul class="menu" id="menu">
+        <li><a href="member.html">帳號會員</a></li>
+        <li><a href="index5.html">課程</a></li>
+        <li><a href="">兌換區</a>
+            <ul class="m1">
+                <li><a href="index3.html">頭像</a></li>
+                <li><a href="index3_3.html">主題色</a></li>
+                <li><a href="index3_2.html">稱號</a></li>
+            </ul>
+        </li>
+        <li><a href="ask.html">懸賞區</a></li>
+        <li><a href="tongzhi.html">通知</a></li>
+    </ul>
+    <div id="rectangle"></div>
+    <div id="circle"></div>
+    <div id="index">
+        >>>課程>>>系統分析與設計>>>筆記區>>>分享筆記
+    </div>
+
+    <div id="article">
+        <label class="a2">標題：</label><br><br>
+        <input type="text" class="in" id="say"><br><br>
+
+        <label class="a2">分享筆記：</label><br><br>
+        <input type="file" name="file" /><br><br>
+        <input class="in3 a2" type="submit" value="分享">
+    </div>
+    <script>
+        $("#say").on("click", function () {
+            $("#dialog").dialog("open");
+        });
+
+
+        var options = document.querySelectorAll("#dialog > div");
+        var selectedIdentity = document.getElementById("selectedIdentity");
+
+        options.forEach(function (option) {
+            option.addEventListener("click", function () {
+                var selectedText = option.querySelector(".k").textContent;
+                selectedIdentity.innerText = "選擇的身分：" + selectedText;
+                $("#dialog").dialog("close");
+            });
+        });
+    </script>
+</body>
+
+</html>

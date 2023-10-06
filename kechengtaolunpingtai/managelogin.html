@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>分享課程心得平台</title>
+        <script src="sources/jquery-1.9.1.js"></script>
+        <script src="sources/jquery-form.js"></script>
+        <style>
+            body{
+	            margin: 0;
+          	    padding: 0;
+                z-index: 0;
+                overflow: hidden;
+                overflow-x: hidden;
+                max-height: 100vh;
+                
+            }
+            .center{
+                text-align:center;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 10px 1fr;
+                grid-gap: 50px;
+                height: 100vh;
+                align-items: center;
+            }
+
+            .left{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .i {
+                align-items: flex-start;
+                width:150px;
+            }
+            .in{
+                width:500px;
+                height:50px;
+                border-radius:30px;
+                border: 3px solid #5e4d31;
+                font-size: 50px;
+                font-family: 微軟正黑體;
+            }
+            .in2{
+                width:200px;
+                height:80px;
+                border-radius:30px;
+                border: 3px solid #5e4d31;
+                font-size: 50px;
+                background-color: #dc9260;
+                color:white;
+                font-family: 微軟正黑體;
+                font-weight: bold;
+            }
+            .t{
+                text-align: center;
+                font-size: 50px;
+                display: inline-block;
+                color: #5e4d31;
+                margin: 0;
+                line-height: 150%;
+                font-family: 微軟正黑體;
+                font-weight: bold;
+            }
+            .t2{
+                text-align: center;
+                font-size: 100px;
+                display: inline-block;
+                color: #dc9260;
+                margin: 0;
+                line-height: 150%;
+            }
+            .t3{
+                text-align: center;
+                font-size: 30px;
+                display: inline-block;
+                color: #dc9260;
+                margin: 0;
+                line-height: 150%;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .t4{
+                text-align: center;
+                font-size: 80px;
+                display: inline-block;
+                color: black;
+                margin: 0;
+                line-height: 150%;
+            }
+            .divider {
+                
+                height: 70%;
+                justify-content: center;
+                background-image: linear-gradient(to bottom, transparent 20%, rgb(201, 201, 201) 20%); /* 虚线样式 */
+                background-size: 30% 10px; /* 虚线间距的高度 */
+                background-repeat: repeat-y;
+            }
+        </style>
+    </head>
+    <body style="background-color:#FFFAF0;">
+        <div class="container">
+            <div  class="left">
+            <img src="1.png" class="i">
+            <h1 class="t4">分享課程心得平台</h1>
+            <p class="t">管理員</p></div>
+            <div class="divider"></div>
+            <div class="center">
+                <div class="right">
+                    <p class="t2">Sign In</p>
+                    <form  action = "login.php" method = "POST">
+                            <p class="t">學號</p>
+                            <input  class="in" type = "text" name = "username" required><br>
+                            <p class="t">密碼</p>
+                            <input class="in" type = "password" name = "password"><br>
+                            <a href="manage.html"><input class="center in2" type="" value="登入"></a><br>
+                            <a class="center t3" style="border-radius:10px;" href="">忘記密碼？</a>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

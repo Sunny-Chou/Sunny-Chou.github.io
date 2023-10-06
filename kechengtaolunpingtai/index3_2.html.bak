@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>分享課程心得平台</title>
+  <style>
+    .image{
+        width: 270px;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color::#FCF6E8;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-x: hidden;
+        max-height: 100vh;
+    }
+    #container {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        max-width: 100vw;
+    }
+    #container::-webkit-scrollbar {
+      height: 10px;
+      background-color: white;
+    }
+    .container2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #container::-webkit-scrollbar-thumb{
+        background-color: #dc9260;
+    }
+    .box {
+      flex:1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      flex-direction: column;
+      margin-right:10px;
+      margin-left:10px;
+      
+    }
+    .in2{
+        width:100px;
+        height:50px;
+        border-radius:30px;
+        border: 3px solid #5e4d31;
+        font-size: 20px;
+        background-color: #dc9260;
+        color:white;
+        font-family: 微軟正黑體;
+        font-weight: bold;
+    }
+    .t{
+        font-size: 20px;
+        font-weight: bold;
+        color:#5e4d31;
+    }
+    .t2{
+        font-size: 16px;
+        color:#5e4d31;
+    }
+
+    .a1 {
+      text-decoration:none;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #index {
+      display: inline-block;
+      margin-left: 50px;
+      margin-top: 120px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+	ul.menu { /*把文字設定為行內元素、改變字體*/
+		display: inline-block;
+		font-size: 35px;
+		color:#FFFFFF;
+	}
+
+	ul.menu > li {
+		float: left; /*靠左對齊*/
+	}
+	ul.menu a { /*設定框內的文字、條件*/
+		background-color:#FDBC96;
+		color: white;
+		display: block;
+		padding: 0 20px;
+		text-decoration: none;
+		line-height: 70px;
+ 		opacity: 1;
+
+	}
+	ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
+		background-color: pink;
+		color: #fff;
+	}
+	ul.menu a:active{ /* 滑鼠滑入按鈕變色*/
+		background-color: pink;
+		color: #fff;
+	}
+	
+	#menu{  /*保持在畫面上方*/
+		position:fixed;
+		top:-5px;
+		left:150px;
+		z-index:3;
+	}
+	ul li {
+	  position: relative;
+
+	}
+	ul li a {
+	  display: block;
+	  text-decoration: none;
+	}
+	ul li ul {
+	  display: none;
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	}
+
+	ul li:hover > ul {
+	  display: block;
+	}
+	
+	.m1{
+		font-size:20px;
+	}
+	#rectangle {
+		position:fixed;
+		top:30px;
+		left:50px;
+		width: 1400px;
+		height: 70px;
+		background-color: #FDBC96;
+		z-index:1;
+	}
+	#circle {
+		position:fixed;
+		top:30px;
+		left:1420px;
+	    width: 70px;
+		height: 70px;
+		background-color: #FDBC96;
+		-moz-border-radius: 35px;
+		-webkit-border-radius: 35px;
+		border-radius: 35px;
+		z-index:1;
+	}
+	#logo {
+		position: fixed;
+		height:100px;
+		top:20px;
+		left:20px;
+		z-index:2;
+	}
+	#out {
+		position: fixed;
+		top:40px;
+		left: 1300px;
+		width:100px;
+		height:50px;
+		font-size:35px;
+		color:#6B4F0E;
+		z-index:5;
+		border:0;
+		background-color:#FDBC96;
+	}
+  </style>
+</head>
+<body>
+    <div class="container2">
+		<div>
+		<img id="logo" src="logo.png" />
+		<ul class="menu" id="menu">
+			<li><a href="member.html">帳號會員</a></li>
+			<li><a href="index5.html">課程</a></li>
+			<li><a href="">商店</a>
+				<ul class = "m1">
+				<li><a href="index3.html">頭像</a></li>
+				<li><a href="index3_3.html">主題色</a></li>
+				<li><a href="index3_2.html">稱號</a></li>
+				</ul>
+			</li>
+			<li><a href="ask.html">懸賞區</a></li>
+		</ul>
+			<button type="button" id="out" >登出</button>
+			<div id="rectangle"></div>
+			<div id="circle"></div>
+		</div>
+          <div id="index">
+            >>>商店>>>稱號
+          </div>
+        </div>
+  <div id="container">
+    <div class="box">
+        <img src="ch1.png" class="image">
+        <p class="t">發布心得文累積獲得50顆愛心</p>
+        <input class="in2"type="submit"value="領取">
+    </div>
+    <div class="box" class="image">
+        <img src="ch2.png">
+        <p class="t">發布留言數累積50則以上</p>
+        <input class="in2"type="submit"value="領取">
+    </div>
+    <div class="box" class="image">
+        <img src="ch3.png">
+        <p class="t">登入成功</p>
+        <input class="in2"type="submit"value="領取">
+    </div>
+  </div>
+</body>
+</html>

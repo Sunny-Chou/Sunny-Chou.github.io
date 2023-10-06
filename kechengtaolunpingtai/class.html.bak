@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>分享課程心得平台</title>
+
+	
+	<style>
+	ul{ /* 取消ul預設的內縮及樣式 */
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		color:#FFFFFF;
+	}
+
+	ul.menu { /*把文字設定為行內元素、改變字體*/
+		display: inline-block;
+		font-size: 35px;
+		color:#FFFFFF;
+	}
+
+	ul.menu > li {
+		float: left; /*靠左對齊*/
+	}
+	ul.menu a { /*設定框內的文字、條件*/
+		background-color:#FDBC96;
+		color: white;
+		display: block;
+		padding: 0 20px;
+		text-decoration: none;
+		line-height: 70px;
+ 		opacity: 0.8;
+
+	}
+	ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
+		background-color: pink;
+		color: #fff;
+	}
+	ul.menu a:active{ /* 滑鼠滑入按鈕變色*/
+		background-color: pink;
+		color: #fff;
+	}
+
+		
+	#menu{  /*保持在畫面上方*/
+		position:fixed;
+		top:25px;
+		left:150px;
+		z-index:3;
+	}
+	
+	body{
+		background-color:#FCF6E8
+	}
+		
+	#rectangle {
+		position: absolute;
+		top:25px;
+		left:50px;
+		width: 1400px;
+		height: 70px;
+		background-color: #FDBC96;
+	}
+	#circle {
+		position: absolute;
+		top:25px;
+		left:1420px;
+	    width: 70px;
+		height: 70px;
+		background-color: #FDBC96;
+		-moz-border-radius: 35px;
+		-webkit-border-radius: 35px;
+		border-radius: 35px;
+	}
+	#topic {
+		position: absolute;
+		top:140px;
+		left:40px;
+		font-size:20px;
+	}
+	#logo {
+		position: absolute;
+		height:100px;
+		top:8px;
+		left:20px;
+		z-index:4;
+	}
+	#hh {
+		position: absolute;
+		top:100px;
+		left:45px;
+		height:80px;
+	}
+	#out {
+		position: absolute;
+		top: 34.2px;
+		left: 1300px;
+		width:100px;
+		height:50px;
+		font-size:35px;
+		color:#6B4F0E;
+		z-index:5;
+		border:0;
+		background-color:#FDBC96;
+	}
+	#p1{
+		position: absolute;
+		top: 200px;
+		left: 180px;
+	}
+	#p2{
+		position: absolute;
+		top: 200px;
+		left: 850px;
+	}
+	ul li {
+	  position: relative;
+
+	}
+	ul li a {
+	  display: block;
+	  text-decoration: none;
+	}
+	ul li ul {
+	  display: none;
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	}
+
+	ul li:hover > ul {
+	  display: block;
+	  background
+	}
+	
+	.m1{
+		font-size:22px;
+	}
+	</style>
+</head>
+<body>	
+	
+		<img id="hh" src="0.png" />
+<!--主選單-->
+		<img id="logo" src="logo.png" />
+	<ul class="menu" id="menu">
+        <li><a href="member.html">帳號會員</a></li>
+        <li><a href="index5.html">課程</a></li>
+        <li><a href="">商店</a>
+			<ul class = "m1">
+			<li><a href="index3.html">頭像</a></li>
+			<li><a href="index3_3.html">主題色</a></li>
+			<li><a href="index3_2.html">稱號</a></li>
+			</ul>
+		</li>
+        <li><a href="ask.html">懸賞區</a></li>
+    </ul>
+		<button type="button" id="out" >登出</button>
+		<div id="rectangle"></div>
+		<div id="circle"></div>
+	<div>
+		<div>
+		<a href="index4.html"><img id="p1" src="1.1.png" /></a>
+		<a href="index4_2.html"><img id="p2" src="2.png" /></a>
+	</div>
+
+	</div>
+
+
+</body>
+</html>
+

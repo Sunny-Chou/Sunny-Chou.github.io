@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>分享課程心得平台</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            overflow-x: hidden;
+            max-height: 100vh;
+        }
+
+        #index {
+            display: inline-block;
+            margin-left: 50px;
+            margin-top: 120px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #content {
+            display: flex;
+            margin: 20px 50px;
+        }
+
+        #board-list {
+            border-right: 1px solid #ccc;
+            padding-right: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #dc9260;
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 70vh;
+        }
+
+        #board-list ul {
+            margin-left: 0;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        #board-list li {
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            justify-content: center;
+        }
+
+        #article {
+            flex: 2;
+            padding: 0 20px;
+            overflow: auto;
+            overflow-x: hidden;
+            max-height: 70vh;
+        }
+
+        #article::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        #article-container {
+            padding: 10px;
+        }
+
+        #board-list::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        #comments::-webkit-scrollbar {
+            width: 0em;
+        }
+
+        .comment-container {
+            border-bottom: 1px solid #5e4d31;
+            padding: 10px;
+        }
+
+        .list-container {
+            padding: 10px;
+            width: 100%;
+        }
+
+        #comments {
+            flex: 1;
+            padding: 0 20px;
+            text-align: center;
+            border-left: 1px solid #ccc;
+            overflow: hidden;
+            overflow-x: hidden;
+            max-height: 80vh;
+        }
+
+        #sidebar {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        /* 根據需要調整樣式 */
+
+        h1 {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .no li {
+            margin-bottom: 10px;
+        }
+
+        /* 假設連結有下劃線 */
+
+        .a1 {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .a2 {
+            text-decoration: none;
+            color: #dc9260;
+            font-size: 20px;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .i {
+            /*大頭像*/
+            width: 60px;
+        }
+
+        .i2 {
+            /*大愛心檢舉*/
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        .i3 {
+            /*小愛心小檢舉*/
+            width: 20px;
+            height: 20px;
+            padding: 0 5px;
+        }
+
+        .i4 {
+            /*小頭像*/
+            width: 40px;
+            height: 40px;
+        }
+
+        .i5 {
+            /*小愛心小檢舉*/
+            width: 26px;
+            height: 26px;
+            padding: 0px 5px;
+        }
+
+        .j {
+            /*大標題*/
+            font-size: 30px;
+        }
+
+        .j2 {
+            /*小標題*/
+            font-size: 18px;
+            display: flex;
+            line-height: 100%;
+            margin: 0;
+        }
+
+        .j3 {
+            /*大內文*/
+            font-size: 18px;
+        }
+
+        .j4 {
+            /*小內文*/
+            font-size: 10px;
+            display: flex;
+            line-height: 100%;
+            margin: 0;
+        }
+
+        .j5 {
+            /*小內文*/
+            font-size: 2px;
+            display: flex;
+        }
+
+        .k {
+            /*大名字*/
+            font-size: 18px;
+            padding: 0 20px;
+        }
+
+        .k2 {
+            /*小名字*/
+            font-size: 10px;
+            padding: 0 5px;
+        }
+
+        .l {
+            /*留言*/
+            font-size: 18px;
+            padding: 0 80px;
+        }
+
+        .liu {
+            font-size: 18px;
+            background-color: #dc9260;
+            color: white;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        .lb {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .lb2 {
+            display: flex;
+        }
+
+        .in {
+            width: 90%;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            font-size: 18px;
+            font-family: 微軟正黑體;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        ul.menu {
+            /*把文字設定為行內元素、改變字體*/
+            display: inline-block;
+            font-size: 35px;
+            color: #FFFFFF;
+        }
+
+        ul.menu>li {
+            float: left;
+            /*靠左對齊*/
+        }
+
+        ul.menu a {
+            /*設定框內的文字、條件*/
+            background-color: #FDBC96;
+            color: white;
+            display: block;
+            padding: 0 20px;
+            text-decoration: none;
+            line-height: 70px;
+            opacity: 1;
+
+        }
+
+        ul.menu a:hover {
+            /* 滑鼠滑入按鈕變色*/
+            background-color: pink;
+            color: #fff;
+        }
+
+        ul.menu a:active {
+            /* 滑鼠滑入按鈕變色*/
+            background-color: pink;
+            color: #fff;
+        }
+
+        #menu {
+            /*保持在畫面上方*/
+            position: fixed;
+            top: -5px;
+            left: 150px;
+            z-index: 3;
+            font-weight: bold
+        }
+
+        ul li {
+            position: relative;
+
+        }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+        }
+
+        ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        ul li:hover>ul {
+            display: block;
+        }
+
+        .m1 {
+            font-size: 20px;
+        }
+
+        #rectangle {
+            position: fixed;
+            top: 30px;
+            left: 50px;
+            width: 1400px;
+            height: 70px;
+            background-color: #FDBC96;
+            z-index: 1;
+        }
+
+        #circle {
+            position: fixed;
+            top: 30px;
+            left: 1420px;
+            width: 70px;
+            height: 70px;
+            background-color: #FDBC96;
+            -moz-border-radius: 35px;
+            -webkit-border-radius: 35px;
+            border-radius: 35px;
+            z-index: 1;
+        }
+
+        #logo {
+            position: fixed;
+            height: 100px;
+
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+        }
+
+        #out {
+            position: fixed;
+            top: 40px;
+            left: 1300px;
+            width: 100px;
+            height: 50px;
+            font-size: 35px;
+            color: #6B4F0E;
+            z-index: 5;
+            border: 0;
+            background-color: #FDBC96;
+        }
+
+        #plus {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+            width: 80px;
+            height: 80px;
+        }
+
+        .in2 {
+            width: 20%;
+            height: 30px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            background-color: #dc9260;
+            color: #FFFFFF;
+            font-size: 12px;
+            font-family: 微軟正黑體;
+        }
+
+        .in3 {
+            width: 90%;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            font-size: 24px;
+            text-align: center;
+            font-family: 微軟正黑體;
+        }
+
+        .in4 {
+            width: 20%;
+            height: 30px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            background-color: #dc9260;
+            color: #FFFFFF;
+            font-size: 12px;
+            font-family: 微軟正黑體;
+        }
+
+        .in5 {
+            width: 85%;
+            height: 40px;
+            border-radius: 30px;
+            border: 3px solid #5e4d31;
+            font-size: 18px;
+            background-color: #dc9260;
+            color: #FFFFFF;
+            font-family: 微軟正黑體;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#dialog").dialog({
+                autoOpen: false,
+                show: {
+                    effect: "explode",
+                    duration: 500
+                },
+                hide: {
+                    effect: "fade",
+                    duration: 800
+                },
+                width: 481
+            });
+        });
+        $(function () {
+            $("#dialog2").dialog({
+                autoOpen: false,
+                show: {
+                    effect: "explode",
+                    duration: 500
+                },
+                hide: {
+                    effect: "fade",
+                    duration: 800
+                },
+                width: 481
+            });
+        });
+    </script>
+</head>
+
+<body style="background-color:#FCF6E8;">
+    <div id="dialog2" title="檢舉原因">
+        <p class="k">與課程無關</p>
+        <p class="k">含暴力、色情、恐嚇、辱罵等違規內容</p>
+        <button class="in5" id="jianju">檢舉</button>
+    </div>
+    <div id="dialog" title="填入您的電子郵件" style="text-align: center;">
+        <input type="text" class="in3">
+        <input type="submit" class="in4">
+    </div>
+    <a href="addshu.html"><img id="plus" src="plus.png"></a>
+    <div>
+        <img id="logo" src="logo.png" />
+        <ul class="menu" id="menu">
+            <li><a href="member.html">帳號會員</a></li>
+            <li><a href="index5.html">課程</a></li>
+            <li><a href="shop.html">兌換區</a>
+                <ul class="m1">
+                    <li><a href="index3.html">頭像</a></li>
+                    <li><a href="index3_3.html">主題色</a></li>
+                    <li><a href="index3_2.html">稱號</a></li>
+                </ul>
+            </li>
+            <li><a href="ask.html">懸賞區</a></li>
+            <li><a href="tongzhi.html">通知</a></li>
+        </ul>
+        <a href="index.html"><button type="button" id="out">登出</button></a>
+        <div id="rectangle"></div>
+        <div id="circle"></div>
+    </div>
+    <div id="index">
+        >>>課程>>>系統分析與設計>>>二手書交流區
+    </div>
+    <div id="content">
+        <div id="board-list">
+
+            <div class="list-container">
+                <ul>
+                    <li>
+                        <div class="lb2"><img src="b.png" class="i5"><a href="#" class="a2">查看全部課程</a></div>
+                    </li>
+                </ul>
+                <h2 class="comment-container" style="font-size:30px; color:#dc9260;padding: 0px;text-align:center;">熱門課程
+                </h2>
+                <ul class="no">
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">系統分析與設計</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">數位學習教材設計</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">網頁程式設計</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">機率與統計</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">資料庫系統</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">程式設計</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">物件導向程式設計</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">javascript</a></div>
+                    </li>
+                    <li>
+                        <div class="lb2"><img src="c2.png" class="i5"><a href="#" class="a2">學習管理系統</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="article">
+            <input class="in" type="text" name="text" value="     搜尋二手書"><img src="b.png" class="i5">
+            <h2 class="comment-container" style="font-size:30px; color:#dc9260;padding: 0px;text-align:center;">熱門二手書
+            </h2>
+            <div class="comment-container">
+                <div style="display: flex;"><img src="t1.png" class="i4">
+                    <p class="k2">系統分析與設計-猴猴大師</p>
+                </div>
+                <p class="j2">系統分析與設計 理論與實務應用</p>
+                <img style="width: 60%;" src="s1.png">
+                <p class="j4">價格：1000元</p>
+                <p class="j4">書況：7成新</p>
+                <p class="j4">購買時間：2022年12月20日</p>
+                <div style="display: flex;">
+                    <img src="bad.png" class="i3 bad"><button class="in2">聯絡賣家</button>
+                </div>
+            </div>
+            <div class="comment-container">
+                <div style="display: flex;"><img src="t1.png" class="i4">
+                    <p class="k2">系統分析與設計-猴猴大師</p>
+                </div>
+                <p class="j2">系統分析與設計</p>
+                <img style="width: 60%;" src="s2.jpg">
+                <p class="j4">價格：500元</p>
+                <p class="j4">書況：9成新</p>
+                <p class="j4">購買時間：2022年1月10日</p>
+                <div style="display: flex;">
+                    <img src="bad.png" class="i3 bad"><button class="in2">聯絡賣家</button>
+                </div>
+            </div>
+            <div class="comment-container">
+                <div style="display: flex;"><img src="t4.png" class="i4">
+                    <p class="k2">系統分析與設計-好累喔</p>
+                </div>
+                <p class="j2">物件導向 系統分析與設計</p>
+                <img style="width: 60%;" src="s3.png">
+                <p class="j4">價格：300元</p>
+                <p class="j4">書況：3成新</p>
+                <p class="j4">購買時間：2020年5月6日</p>
+                <div style="display: flex;">
+                    <img src="bad.png" class="i3 bad"><button class="in2">聯絡賣家</button>
+                </div>
+            </div>
+        </div>
+        <div id="comments">
+        </div>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".in2").on("click", function () {
+                $("#dialog").dialog("open");
+            });
+            $(".in4").on("click", function () {
+                $("#dialog").dialog("close");
+            });
+        });
+        $(".bad").on("click", function () {
+            $("#dialog2").dialog("open");
+        });
+        $("#jianju").on("click", function () {
+            $("#dialog2").dialog("close");
+        });
+        var options2 = document.querySelectorAll("#dialog2 > p");
+        options2.forEach(function (option) {
+            option.addEventListener("click", function () {
+                options2.forEach(function (otherOption) {
+                    if (otherOption === option) {
+                        otherOption.style.backgroundColor = "#EEEEEE";
+                    } else {
+                        otherOption.style.backgroundColor = "#FFFFFF";
+                    }
+                });
+
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #ans {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        #ansch,#score{
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 26px;
+        }
+        #account {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 40px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        #password {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 40px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+        }
+        #login,#logout,#start,#leaderboard {
+            width: 100px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+        }
+        .labels {
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        #login:hover,#logout:hover,#start:hover,#leaderboard:hover,#account:focus,#password:focus {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+    </style>
+    <title>多益打字遊戲</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="text-container" style="text-align: center;">
+        <div class="logdata" style="display: flex; align-items: center;">
+            <p class="labels" style="margin: 0;">帳號：</p>
+            <input id="account" type="text">
+        </div>
+        <div class="logdata" style="display: flex; align-items: center;">
+            <p class="labels" style="margin: 0;">密碼：</p>
+            <input id="password" type="password">
+        </div>
+        <button class="logdata" id="login" onclick="login()">登入</button>
+        <p id="score">score:0 time:60</p>
+        <p id="ans"><span style="color: rgb(75, 54, 118); text-decoration: underline;"></span>
+            <span style="color: rgb(135, 114, 177);"></span></p>
+        <p id="ansch"></p>
+        <button id="start" onclick="c();">開始</button>
+        <button id="leaderboard" onclick="window.open('leaderboard.html', '_blank');">排行榜</button>
+        <button id="logout" onclick="o();">登出</button>
+    </div>
+    <script>
+        var url = "https://script.google.com/macros/s/AKfycbzvVbt81qIjd6XodIRlFKIQEnuF99n8-pkgSuQEe0xMwTeopXOoVoIoTDbSaEylUtG9/exec";
+        var account = "";
+        var password = "";
+        var hs = 0;
+        var t = 0;
+        const en = ["analyze v.分析", "anniversary n.週年", "approximately adv.大約；近乎", "attention n.注意力；專心",
+            "circumstance n.情勢；情況", "competitor n.競爭者", "complete v.完成；adj.完整的", "conflict n.v.衝突",
+            "contain v.包含", "current adj.目前的；現今的", "deny v.拒絕；否認", "enhance v.提升；增加", "experiment v.n.實驗",
+            "facilitate v.促進", "foremost adj.最先進的；首要的", "generously adv.慷慨地", "grant n.補助金；許可v.批准；准許",
+            "integral adj.不可或缺的；整體的", "launch n.發表；啟用v.發表", "mandatory adj.強制的；義務的", "nearly adv.幾乎；差不多",
+            "once adv.一次；一回", "originally adv.本來；最初地", "persuade v.說服；勸說", "preparation n.準備", "productive adj.多產的",
+            "purpose n.目的", "reduce v.減少", "release v.n.發表；釋放", "respective adj.個別的", "result v.導致；產生n.結果",
+            "search v.搜尋；尋找n.搜索；搜查", "sequence n.次序；順序", "specialization n.專攻；專精", "supervisor n.主管；監督者",
+            "target v.把...作為目標n.目標", "timely adj.及時的；適時的", "transition v.轉變；轉換n.轉變；過渡期",
+            "unexpectedly adv.預料之外地", "unfavorable adj.不利的；反對的", "activate v.啟動；生效", "administrative adj.行政的",
+            "all the more phr.更加", "ambitious adj.有野心的；有企圖心的", "apparent adj.顯然的", "associated adj.有關聯的",
+            "at all times phr.隨時；總是", "attire n.服裝；裝扮", "be accounted for phr.清點；記錄", "boardroom n.會議室",
+            "briefly adv.簡短地", "commuter n.通勤者", "conduct v.進行；指揮", "definitely adv.確切地；肯定地", "department n.部門",
+            "device n.設備；裝置", "enlarge v.放大", "exclusively adv.專門地；獨家地", "expect v.期望；期待", "fold v.摺疊",
+            "institute v.制定；創立n.機構；協會", "leave v.留下；離開n.請假", "load v.裝填；裝載", "mail v.郵寄n.信件",
+            "outstanding adj.傑出的；出眾的", "over prep.超過；越過", "personnel adj.人事的n.人事", "procedure n.程序；步驟",
+            "rationale n.理念；原則", "regain v.收回；回復", "regarding prep.關於", "result n.結果", "security n.保全；安全",
+            "shift n.輪班；轉換v.轉換；轉移", "since adv.此後", "staff lounge n.員工休息室", "supply n.補給品；供應(量)v.補給；供應",
+            "tentative adj.暫定的；暫時的", "understaffed adj.人手不足的", "workplace n.職場；工作場所", "achievement n.成就；達成",
+            "attachment n.附件；附加物", "collaborate v.合作", "contribute v.貢獻；助長", "contribution n.貢獻；付出",
+            "deadline n.截止；截稿期限", "diverse adj.多樣的；各種的", "document n.文件v.紀錄", "documentation n.(總稱)文件；記錄",
+            "draft n.草稿", "duplication n.複製；副本", "encourage v.鼓勵", "exceptional adj.特別的；例外的", "extend v.延長；給予",
+            "finalize v.定稿；定局", "hand v.交給", "imperative adj.重要的；必要的", "implement v.執行；實施", "insufficient adj.不足的",
+            "letterhead n.(印在信箋上的)信頭", "mastermind n.策畫者；主謀者", "mistake n.錯誤", "operation n.運作；運轉", "overview n.概要",
+            "paperwork n.文書工作", "progress n.進展；進步", "proposal n.提案；建議", "renewal n.續約；更新", "reproduce v.複製",
+            "respond v.回覆", "revise v.修訂；修改", "revision n.修訂(本)；修改", "rush v.匆忙行事；猛衝", "sign v.簽名；簽署",
+            "submit v.提交；提出", "subsequent to phr.隨後；接著", "summarize v.概述；摘要", "summary n.摘要", "template n.樣稿；範本",
+            "tight adj.緊湊的；緊的", "address v.處理；演說", "agenda n.議程", "announce v.宣布；公告", "arrangement n.準備；安排",
+            "attend v.出席；參加", "attentive adj.注意的；留意的", "audience n.觀眾；聽眾", "brainstorm v.腦力激盪", "break n.休息；停頓",
+            "circulate v.發放；流通", "come up with phr.想出", "comment v.評論；批評n.評論；意見", "consensus n.共識",
+            "executive n.行政主管；行政部門", "highlight v.強調；凸顯", "inform v.告知；通知", "instructor n.講師；指導者",
+            "intensive adj.密集的", "lead v.領導；主導", "material n.材料；原料", "matter n.問題；事件", "minutes n.會議記錄",
+            "negotiate v.協商；談判", "ongoing adj.進行中的", "organize v.組織", "pass out phr.發放", "policy n.政策", "postpone v.延後；延期",
+            "presentation n.簡報；呈現", "recess n.休會；休息", "reschedule v.重新排程", "schedule v.安排時程n.時程表；行事曆",
+            "session n.(授課或活動的)期間", "share v.分享","short notice phr.臨時通知","state v.說明；聲明","take notes phr.記錄；作筆記",
+            "train v.訓練","unanimously adv.無異議地；一致地","vote v.投票","accordingly adv.依此；順應地","accountable adj.應負責的",
+            "acquaint v.使熟悉","adviser n.顧問(或advisor)","at the latest phr.最遲；最晚","client n.客戶；顧客","count on phr.信賴；仰賴",
+            "directory n.目錄；指南","dispose v.處理；處置","district n.地區；區域","divide v.分配；劃分","essential adj.重要的；基本的",
+            "explain v.說明；解釋","extension n.電話分機","frequently adv.經常；頻繁地","general adj.一般的；普遍的","helpful adj.有幫助的；有用的",
+            "informative adj.資訊豐富的","in regard to phr.關於","manage v.管理；經營","manual n.手冊；指南","method n.方式；方法","notify v.通知",
+            "periodically adv.定期地；週期性地","pertinent adj.恰當的；相關的","pretty adv.相當adj.漂亮的","provisionally adv.暫定地",
+            "regularly adv.定期地；有規律地","reliable adj.可靠的","representative n.代表","resolve v.解決","respect n.尊敬；尊重",
+            "rest n.其餘的人；剩餘事物","solidify v.使確定；固化","specific adj.特定的；明確的","strategy n.策略","superb adj.高超的；極好的",
+            "suppose v.假定；以為","surpass v.超越；優於","usual adj.平常的；通常的","addition n.增加物；附加物","applicant n.申請者",
+            "assistant n.助理；助手","associate n.同事；合夥人","bachelor's degree n.學士學位","candidate n.求職應徵者；候選人","clerical adj.事務的；文書的",
+            "compensation n.報酬；補償","confidential adj.機密的","consideration n.考慮；思考","consistently adv.持續地；一致地",
+            "electronically adv.用電子方式地","employment n.工作；雇用","ethic n.道德；倫理","evident adj.明顯的","familiarity n.熟悉；精通","fill v.遞補；填補",
+            "fit v.符合；適合","ideal adj.理想的","interview v.n.面試；採訪","invite v.邀請","opportunity n.機會","permanent adj.固定的；永久的",
+            "position n.職位；位置","post v.張貼；公佈","prefer v.偏好","previously adv.先前地","proficiency n.熟練；精通","prospective adj.可能的；預期的",
+            "qualify v.有資格；使勝任","recommendation n.推薦(信)","recruit n.雇員v.招募","reference n.介紹信；提及","related adj.相關的","renew v.續約；更新",
+            "required adj.必須的；必修的","responsibility n.職責；責任","seek v.尋找","suited adj.適合的","workforce n.勞動人口；員工",
+            "advance v.升遷；晉升n.晉升；進步","appoint v.指派；委任","appraisal n.評價","assignment n.(指派的)工作；作業","assume v.承擔；接任",
+            "authorize v.授權；許可","caliber n.才幹；水準","commensurate adj.(大小、程度)對應的","completion n.完成","dependable adj.可靠的","diligent adj.勤奮的",
+            "duty n.職責；義務","effective adj.生效的；有效的","eligible adj.適用的；合格的","expertise n.專精；專長","extensive adj.廣泛的",
+            "field n.領域","fire v.解雇","hire v.雇用；聘用","independently adv.獨立地","inexperienced adj.經驗不足的；不熟練的","join v.加入；連結",
+            "leadership n.領導(地位)；領導力","leave n.休假v.離開","limited adj.有限的","managerial adj.管理的","particularly adv.特別地","performance n.表現",
+            "praise v.讚美；表揚n.讚美","predecessor n.前輩；先前的事物","promote v.晉升；升遷","recognition n.認可；承認","resign v.辭職",
+            "resourceful adj.靈活的；足智多謀的","retire v.退休","skill n.技能；技巧","succeed v.繼任；成功","tenure n.任期","title n.職稱；頭銜",
+            "transfer v.n.調職；遷移","advantage n.優點；優勢","affordable adj.可負擔的","awareness n.意識；察覺","collective adj.集體的；共同的",
+            "commercial n.廣告adj.商業的","committed adj.致力的；堅定的","complimentary adj.免費的；招待的","confidence n.信心","correspondence n.(總稱)信件；通訊連繫",
+            "customized n.客製化的；訂做的","demonstration n.示範","determine v.決定","devoted adj.專心的；熱衷的","effectiveness n.有效；效力",
+            "energy-efficient adj.節省能源的；省電的","flyer n.宣傳單(=flier)","high-quality adj.高品質的","individual n.個人；個體adj.個人的",
+            "inexpensive adj.不貴的","influence v.n.影響","introductory adj.介紹的","majority n.多數","match v.相配；相符","maximize v.最大化；達到最大值",
+            "moderately adv.適中地；適度地","motivate v.激勵；激發","offer v.提供；提出n.提議；出價","preferential adj.優先的；優惠的","presence n.在場；出席",
+            "promote v.宣傳；推銷","publicity n.宣傳；名聲","rather than phr.而非","respondent n.應答者；作答者","run an ad phr.刊登廣告","satisfaction n.滿意",
+            "saving n.節省的事物；存款","suitable adj.適合的","survey n.調查","testimonial n.見證","versatile adj.多樣化的；多功能的","accountant n.會計師",
+            "adjustment n.調整；適應","adversely adv.不利地；負面地","annually adv.年度地","anticipate v.預期","appropriate adj.適當的","boost n.增進v.增加",
+            "budget n.預算","constaint n.限制","cover v.涵蓋","cut n.削減v.削減；切割","decline n.下降；下滑v.下降","estimate n.估價；預估值v.估價；估計",
+            "exceed v.超出；勝過","excluding prep.除了...之外","expense n.費用；開支","figure n.數字；圖表","financial adj.財務的；金融的","growth n.成長",
+            "loss n.損失；虧損","lower v.降低","markedly adv.顯著地","mistakenly adv.誤解地","payment n.付款","profit n.利潤v.獲利","project v.預測","raise v.提高",
+            "recession n.(經濟上)衰退","reimburse v.退還；補償","reimbursement n.退款；賠償","relevant adj.有關的","revenue n.營收；稅收","secure v.獲得；保障",
+            "sharply adv.大幅地；劇烈地","significant adj.相當程度的；有意義的","statistics n.統計；統計數據","steadily adv.穩定地","substantial adj.大幅的；實質的",
+            "trend n.潮流；趨勢","unusually adv.不尋常地","additional adj.額外的；附加的","aim n.目標v.針對","assessment n.評估；評量","authority n.官方機構；權威",
+            "certain adj.某種的；確定的","choose v.選擇","commonly adv.普遍地；共同地","compete v.競爭","confront v.面臨；遭遇","critical adj.關鍵的；批判的",
+            "dedicated adj.專心致力的；專用的","discreetly adv.謹慎地；小心地","dramatic adj.顯著的；戲劇性的","eliminate v.撇除；淘汰","emphasis n.強調",
+            "established adj.有聲望的","expand v.擴展；擴大","found v.創立","improve v.改進；改善","independent adj.獨立的","inefficient adj.效率差的",
+            "initial adj.最初的；開始的","initiate v.開始；啟蒙","lay off phr.解雇","need n.需求v.需要","object v.反對","potential adj.可能的；潛在的",
+            "propose v.提議；建議","redundancy n.多餘；重覆","reflect v.反映；反射","relocate v.搬遷；重新安置","repeatedly adv.接連地；重複地",
+            "reputation n.聲望；名聲","resource n.資源","spokesperson n.發言人","stance n.立場","statement n.聲明","streamline v.簡化；效率化",
+            "witness v.見證；目擊n.證人","yield v.產生；讓步n.收益；生產量","accurate adj.準確的；精確的","adjustable adj.可調整的；可調節的",
+            "artificial adj.人工的；人造的","assembly n.(機件的)裝配；組合","common practice n.慣例；習慣作法","create v.創造；發明","defect n.瑕疵；缺陷",
+            "defective adj.有瑕疵的；有缺陷的","depend v.仰賴；依靠","discontinue v.中斷；停止","disposable adj.可拋棄的；用完即丟的","equipment n.裝備；配備",
+            "expiration n.期滿；截止","exponentially adv.指數型地","flaw n.瑕疵；錯誤","generate v.產生；造成","halt v.n.暫停；終止","handcrafted adj.手工製作的",
+            "install v.安裝；設置","last v.持續","lightweight adj.重量輕的；輕巧的","maintenance n.維修","manufacture v.製造；加工n.製造","mechanic n.技工",
+            "observe v.遵守；觀察","obstruction n.阻礙；妨礙","outdated adj.舊式的；過時的","outgoing adj.外出的；離開的","periodic adj.定期的",
+            "precaution n.謹慎；預防措施","produce v.生產；製造","productivity n.生產力","repair n.修理；修補v.修理","replacement n.替代品；取代",
+            "resume v.重新開始；繼續","run v.營運；經營","storage n.貯藏；庫存","technician n.技術人員","variety n.各種各樣；多樣化","accompany v.陪同；伴隨",
+            "allow v.允許","apologize v.道歉","approve v.同意；批准","automated adj.機械化的；自動化的","avoid v.避免；迴避","ban n.禁止；禁令v.禁止",
+            "compliance n.順從；遵從","concerning prep.關於","conform v.符合；遵從","cooperation n.合作","direct v.指向；指示","discourage v.勸阻；使沮喪",
+            "enact v.制定(法律)；頒佈(法案)","enclosed adj.內附的；封閉的","entitle v.賦予...權利(或資格)","escort v.護送；陪同","flexible adj.有彈性的；靈活的",
+            "fulfill v.履行；實現","further adj.進一步的adv.進一步地","hesitate v.躊躇；猶豫","impose v.把...強加於","in advance phr.預先；事先",
+            "inconvenience n.不便；打擾","indicate v.顯示；指出","inquiry n.詢問","intend v.打算","listing n.列表","permit n.許可證；執照","reach v.取得聯繫；到達",
+            "refer v.參考；查閱","registration n.登記；註冊","regret v.為...感到抱歉、遺憾n.遺憾","restrict v.限制；約束","serve v.為...服務","shortly adv.馬上；不久",
+            "support n.支持；擁護v.支持","ticket v.開罰單n.罰單；票券","update n.最新的情況；更新v.提供最新訊息；更新","welcome adj.受歡迎的v.歡迎",
+            "accomplished adj.完成的；有成就的","acknowledge v.認可；表示謝忱","alternative adj.替代的；二選一的n.選擇；替代方案","attitude n.態度",
+            "awards ceremony n.頒獎典禮","banquet n.宴會；盛宴","celebrate v.慶祝","commemorate v.慶祝；紀念","congratulate v.恭喜；祝賀","convene v.集會",
+            "delay v.延緩；延後","donate v.捐獻；捐贈","entertainment n.娛樂；消遣","excellence n.優秀；傑出","exemplary adj.模範的；示範的","farewell n.再會；告別",
+            "figure n.人物；體型","hand over phr.交給；轉交","hold v.舉行","informal adj.非正式的","inspiring adj.激勵人心的","invitation n.邀請(函)",
+            "leading adj.領導的；領先的","lecture v.n.演講；講課","mark v.標明；做記號n.標記","name v.提名；給...命名n.名字","nominate v.任命；提名",
+            "personally adv.親自；當面","place n.地名；地點v.放置；安置","prestigious adj.聲望高的；有名望的","provide v.提供","renowned adj.有名的；有聲譽的",
+            "respectively adv.分別地；各自地","response n.回應；答覆","set up phr.準備；建立","stand v.站立","tournament n.比賽；錦標賽","turn off phr.關閉",
+            "upcoming adj.即將來臨的","venue n.(會議、活動等)場地","acceptable adj.可接受","acquisition n.收購；獲得","amendment n.修正","assure v.向....保證；確保",
+            "bargain n.特價商品；交易","bid n.出價；投標v.出價","breakable adj.易碎的","broad adj.廣泛的；寬的","clarify v.釐清；闡明","consent n.v.同意；贊成",
+            "deliver v.遞送","deposit n.保證金；存款","dispatch n.v.發送；派遣","distribute v.分發；分配","diversified adj.多樣化的；各種的",
+            "domestic adj.國內的；家庭的","final adj.最後的；最終的","fleet n.機隊；艦隊","follow v.跟隨；密切注意","inventory n.存貨盤點；存貨清單",
+            "invoice n.發票；出貨單","market n.市價","overcharge v.索價過高","pack v.包裝","patronage n.惠顧；贊助","prosperous adj.繁榮的；興盛的",
+            "quote n.報價；引言v.報價；引用","retail adj.零售的n.零售","retain v.保留；保持","shipment n.運送","specification n.詳細計畫；規劃書",
+            "status n.狀況；地位","surplus n.過剩；剩餘物","take effect phr.生效","terminate v.使終止；終止","trace v.追蹤n.痕跡","track v.追蹤n.軌道；路線",
+            "trade n.貿易；交易v.進行交易；交換","void v.使無效；使空出adj.空的","withdraw v.收回；撤銷","acquire v.收購；獲得","ailing adj.衰退的；生病的",
+            "alleviate v.減輕；緩和","bode v.預示；為...的預兆","boost v.推動；提升n.提高；增加","consumer n.消費者","corporate adj.團體的；公司的",
+            "curb v.抑制；約束","cut down phr.削減；縮短","descending adj.下降的","dominate v.支配；控制","drop n.v.下降；掉落","economy n.經濟",
+            "emporium n.商業中心；大型百貨","fiscal adj.會計的；財政的","fluctuation n.波動；上下起伏","foster v.培養；促進","indicative adj.指示的；表示的",
+            "industry n.通貨膨脹","labor adj.勞工的；工會的n.勞工；勞動","lead to phr.導致；通往","lose business v.失去商機","merger n.合併","mutually adv.互相；彼此",
+            "niche n.區塊","preeminent adj.卓越的；顯著的","private adj.私人的；私下的","projection n.預測；投射","reflective adj.反映的；反射的",
+            "regulation n.規則；規定","remain v.剩下；維持","rise n.v.增加","setback n.挫折；倒退","signal v.打信號；示意n.信號；標誌","stable adj.穩定的",
+            "stagnant adj.停滯的","state-owned adj.國有的","tactic n.策略；手法","unemployment n.失業","aisle n.走道；通道","alteration n.變更；改變",
+            "appliance n.設備；器具","attract v.吸引；引起注意或興趣","be lined up phr.排隊","bulk n.大量adj.大量的；大批的","business hours n.營業時間；上班時間",
+            "clearance sale n.清倉大拍賣","competitive adj.有競爭力的；競爭的","convenience n.方便；便利","credit n.信用","currently adv.現在；當今",
+            "description n.描述；敘述","display n.展覽；陳列品v.展出；陳列","exquisite adj.精緻的","for free phr.免費","goods n.商品；貨物",
+            "informed adj.明智的；消息靈通的","linger v.逗留；徘徊","merchandise n.(總稱)商品","obtain v.得到；獲得","offer n.提供；提議v.提供",
+            "outlet n.銷路；暢貨中心","place an order phr.下訂單","price n.價格","produce n.農產品","purchase n.購買；採購v.購買","quantity n.數量",
+            "range v.涵蓋；(在範圍內)變動n.範圍；系列","receipt n.收據","reduced adj.減少的；降低的","refund n.退款","shelf n.層架；貨架","specialize v.專攻；專門從事",
+            "stack v.把...疊成堆；堆放n.一堆；一疊","stock n.存貨；庫存v.貯存","tax n.稅金","valid adj.有效的","voucher n.商品券；優惠券","warranty n.保固；保證書",
+            "bill n.帳單","charge n.費用v.收費","commitment n.承諾；保證","consider v.考慮；認為","consistency n.一致性","convenient adj.方便的",
+            "demand n.v.需要；要求","disruption n.中斷；干擾","embrace v.欣然接受；擁抱","energy n.能源；能量","guarantee v.保證；擔保n.保證(書)",
+            "increase v.n.增加；增強","individually adv.個別地；分別地","keep v.保持；保有","locksmith n.鎖匠","loyalty n.忠誠；忠心","lure v.引誘；誘惑",
+            "merit n.優點；價值","peak adj.尖峰的；高峰的n.高峰；頂端","perfectly adv.完美地","pick up phr.提取；拿起","picture v.拍攝；描繪","plumber n.水電工",
+            "ready adj.準備好的","reasonable adj.合理的","rebate n.退還(現金等)；折現","replace v.代替；取代","restore v.恢復；重建","retailer n.零售商；零售商店",
+            "selection n.選擇","shortcoming n.缺點；短處","simply adv.完全地；簡單地","single adj.單一的","supplier n.供應者；供應商","temporarily adv.暫時地",
+            "unlikely adj.不可能的","unrivaled adj.無可比擬的","useful adj.有用的；有益的","utilities n.水電費；設施","valuable adj.有價值的","accommodations n.住宿",
+            "adjacent adj.相鄰的","allergic adj.過敏的","assorted adj.各式各樣的","atmosphere n.氣氛；氛圍","available adj.可得到的；空閒的","beverage n.飲料",
+            "comfortably adv.舒適地；舒服地","concierge n.旅館接待員；高級門房","confirm v.確認；確定","consist v.組成；構成","courteous adj.殷勤的；有禮貌的",
+            "courtyard n.庭院；中庭","cuisine n.佳餚；料理","culinary adj.烹飪的；美食的","dine v.用餐","directions n.指示；方向","dish n.菜餚；盤子",
+            "elegant adj.優雅的","fat n.脂肪；油脂adj.肥胖的","flavor n.味道；口味","freshness n.新鮮","frozen adj.冰凍的","housekeeping n.客房清潔",
+            "ingredient n.原料；成分","linen n.(桌布、衣物類)亞麻織品","occupancy n.佔用；佔據","possible adj.可能的","premisees n.(飯店、辦公室等)商業場所",
+            "recipe n.食譜","refreshing adj.耳目一新的；提神的","reservation n.預定；保留","spacious adj.寬敞的","spicy adj.辛辣的；有香料的","stay n.停留v.停留；暫住",
+            "taste n.味道；滋味v.品嚐","toss v.扔進；拋起","tray n.盤子","vegetable n.蔬菜","view n.景色；觀點v.觀看","accessible adj.可接近的；可得到的",
+            "arrange v.安排；整理","arrival n.抵達；到達","be stuck phr.(被)卡住；陷入","bicyclist n.單車騎士","canceled adj.取消的；中止的","commute v.通勤",
+            "conductor n.車掌；指揮","delay n.延遲；耽擱v.延誤","depart v.離開；出發","destination n.目的地；終點","entire adj.全部的；整個的","equip v.配備",
+            "expressway n.高速公路","flight n.航班","frequent adj.頻繁的；經常的","historic adj.有歷史意義的","hopefully adv.但願；滿懷希望地",
+            "hospitality n.好客；殷勤招待","incur v.遭受；招致","itinerary n.行程","landmark n.地標；里程碑","last-minute adj.臨時的；最後的","mechanical adj.機械的",
+            "messenger n.快遞員；信差","over adj.結束的","passenger n.乘客","pedestrian n.行人adj.行人的","picturesque adj.如畫般美麗的","proceed v.繼續進行、前進",
+            "public transport n.大眾運輸","round-trip adj.來回的","separate v.分隔；分離adj.分別的","significantly adv.相當程度地；意義重大地","suspend v.暫售；使中止",
+            "tourist n.觀光客","transportation n.交通運輸(工具)","typical adj.典型的","vessel n.船艦；容器","via prep.經由；憑藉","admission n.入場許可；門票",
+            "admit v.批准進入；承認","affect v.影響","artist n.藝術家；藝人","autograph n.親筆簽名","be sold out phr.銷售一空","box office n.售票處；票房",
+            "community n.社區；社群","composer n.作曲者","conduct v.指揮；帶領","costume n.服裝","debut n.首次登台；初次露面","enrich v.使豐富","entertain v.娛樂；款待",
+            "experience v.經歷；體驗n.經驗","film n.電影v.拍攝(影片)","holder n.持有者；保持者","lead role n.主角","masterpiece n.傑作","movie n.電影",
+            "nightly adj.晚間的","perform v.演出；表演","play n.戲劇v.表演","popular adj.受歡迎的；流行的","positive adj.正面的；積極的","present v.呈獻；贈送",
+            "production n.製作；演出","proudly adv.得意地；驕傲地","remind v.提醒；使想起","reserve v.預約；保留","resounding adj.轟動的；馳名的","run v.連續演出；經營",
+            "seat n.座位","sponsor n.v.贊助；資助","stage n.舞台；階段","star v.主演n.明星；傑出人物","theatergoer n.戲迷；戲劇愛好者","theatrical adj.劇場的；戲劇的",
+            "thirsty adj.口渴的；渴望的","worldwide adv.在全球；全球各地adj.遍及全球的","account n.帳戶；客戶","accrue v.(利息等)孳生；增加",
+            "adequate adj.足夠的；適量的","amount n.數量；金額","appraise v.估計；估價","balance n.結餘(款)","bounce v.(支票)跳票","cash n.現金",
+            "collateral n.擔保品；抵押品","commission n.佣金","convert v.兌換(貨幣等)","counterfeit adj.偽造的n.仿製品v.偽造；仿造","credit line n.信用額度",
+            "deduct v.扣除；減除","delinquent adj.到期末付的n.違法者","discretionary adj.自由支配的","due adj.應支付的；到期的","evaluate v.評估；評價","income n.收入",
+            "interest n.利率","investment n.投資","loan n.貸款","outstanding adj.未償還的；傑出的","overdue adj.過期的","owe v.欠(錢)","payable adj.可支付的；應支付的",
+            "pension n.退休金","plummet v.猛跌；急速墜落","remit v.匯款；豁免(稅款等)","save v.儲存；節省","scrutinize v.詳細審視","statement n.帳單；報表",
+            "stock n.股票；股份","stockholder n.股東","sum n.總和；總計","transaction n.交易；買賣","turn down phr.拒絕","unease n.擔心；不安","wire v.電匯；發電報",
+            "withdrawal n.提款；收回","amenities n.(飯店等)休閒設施","brick n.磚塊","carpet v.鋪地毯","close adj.接近的","coincide v.同時發生",
+            "compartment n.隔間；儲物箱","construction n.建造；建設","contractor n.約聘人員；承包商","contractor n.約聘人員；承包商","demolish v.拆除",
+            "distinctive adj.有特色的；特殊的","entrance n.入口","excavation n.挖掘；開鑿","facility n.設備；設施","floor n.樓層；地板","foundation n.地基；基礎",
+            "furnished adj.附家具的","improvement n.改進；改善的事物","inspector n.檢查員；調查員","lease n.租約；租賃","located adj.坐落的；位於的",
+            "modernize v.現代化","neighborhood n.鄰近地區","occupy v.佔據；佔用","ownership n.所有權","patio n.露臺","plumbing n.水電配管",
+            "practical adj.實際的；實用的","property n.財產；資產","railing n.欄杆；扶手","renovate v.整修；翻新","renovation n.整修；翻新","rent v.租用；n.租金",
+            "rental n.出租","resident n.居民","restoration n.重建；恢復","structure n.結構；構造","tenant n.承租人；房客","value n.價值",
+            "walking distance n.步行可達的距離","wing n.側廳；廂房","acclaimed adj.受到讚揚的","activity n.活動","anecdote n.軼事；趣聞","artifact n.手工藝品",
+            "artwork n.美術品；藝術品","author n.作者","avid adj.渴望的；熱切的","belong v.屬於","book v.預定；預約","capacity n.容量；生產力",
+            "chronicle v.記錄；記述n.記事；歷史","cost v.花費n.費用；成本","credit v.歸功於...n.信用；功勞","critically adv.評論地；批判地",
+            "culminate v.以...告終；達到最高點","develop v.沖洗(照片)；發展","drawing n.繪圖","enrollment n.登記；註冊","exhibit n.展示品；展覽品","expire v.到期；期滿",
+            "fascinating adj.迷人的；極好的","feature v.以...為特色n.特徵；特色","heritage n.遺產","indoor adj.室內的","inspiration n.靈感","instruction n.說明；指示",
+            "landscape n.風景；景色","lifetime n.一生；終身","novel n.小說","novice n.新手；初學者","overwhelming adj.壓倒性的；勢不可擋的",
+            "recreational adj.娛樂的；休閒的","register v.登記；註冊","return v.返回；歸還","sculpture n.雕塑品","socialize v.交際；社交往來",
+            "spare adj.空閒的；多餘的v.騰出(時間、人手)","statue n.雕像","subscription n.訂閱","unavailable adj.無法利用；得不到的","aid n.協助；援助",
+            "beneficial adj.有益的","benefit n.利益；好處","borrow v.借入；借用","campaign n.活動","care n.v.照顧；關心","charity n.慈善；慈善團體",
+            "conscious adj.意識到的；覺察到的","consult v.諮詢","decade n.十年","defensive adj.防禦的；保護的","describe v.描繪；形容","donation n.捐款；捐贈",
+            "endeavor n.努力","enlightening adj.啟發的；啟蒙的","environment n.環境","ergonomic adj.人體工學的","fundraising adj.募款的n.募款",
+            "generosity n.慷慨；大方","generous adj.慷慨的；大方的","initiative n.主導；提倡","local adj.當地的；本地的","municipal adj.市立的",
+            "notable adj.值得注意的；顯著的","nutrition n.營養","on-site adj.現場的；實地的","philanthropic adj.慈善的；博愛的","priority n.優先；優先權",
+            "public n.大眾；公開場合adj.公眾的；公開的","quality time n.優質時間","region n.地區","relaxed adj.放鬆的","richly adv.豐富地","solicit v.徵求；請求",
+            "strategically adv.策略上","take care of phr.照顧；處理","traditional adj.傳統的","trustee n.理(監)事；受託人","unprecedented adj.史無前例的；空前的",
+            "wellness n.身心健康","affiliation n.工作職稱；附屬機構","appear v.出現","appendix n.附錄","article n.文章","autobiography n.自傳","broadcast v.廣播；播放",
+            "celebrity n.名人","cover v.報導；覆蓋","detailed adj.詳盡的","editor n.文字編輯","forward v.轉寄","host n.主持人；主辦人","identification n.身分證件；認同",
+            "inaccuracy n.不正確","inaugural adj.創始的；就任的","involve v.涉及；與...有關","issue n.期刊(號)；發行物v.發布；發行","journal n.雜誌；期刊",
+            "layout n.版面設計；排版","literacy n.(閱讀等)能力","live adv.現場地；實況地adj.現場的；活著的","manuscript n.手稿；原稿","media n.媒體",
+            "moderate v.主持；調停adj.適度的","network n.(廣播、電視)電台；傳播網路","pertain v.關於；附屬","pile up phr.堆起；累積","placement n.配置；放置",
+            "press release n.新聞稿","publication n.出版；發行","publisher n.出版商","rare adj.稀少的","reminder n.提示；提醒的人事物","review n.評論；回顧",
+            "script n.腳本；底稿","station n.電台；車站","subscribe v.訂閱","tune in phr.鎖定收看或收聽","weekly adj.每週的","work on phr.從事；進行",
+            "accumulation n.堆積；累積","application n.應用；運用","astronomy n.天文學","be subjected to phr.遭受","capability n.功能；能力",
+            "casually adv.偶然地；無意地","chemical adj.化學的n.化學物","comparable adj.可比較的","complication n.混亂；複雜","component n.零件；成分",
+            "computerized adj.電腦化的","coverage n.覆蓋；新聞報導","digit n.數字","dimension n.尺寸大小；範圍","durable adj.耐用的；持久的","efficiently adv.高效率地",
+            "electricity n.電力","engineer n.工程師；技師","evenly adv.均勻地；均衡地","expose v.使暴露於；接觸到","fuel-efficiency n.燃油效率；節能",
+            "function n.功能；作用","hypothesis n.假設","inspection n.檢查；檢驗","insulation n.隔離；絕緣","introduce v.引進；介紹","invent v.發明；創造",
+            "laboratory n.實驗室","patent v.取得專利權n.專利；專利權","perishable adj.易腐壞的","portable adj.手提式的；便於攜帶的","power n.電力；力量v.為...提供動力",
+            "predict v.預測；預料","prevalent adj.普遍的；流行的","process v.處理；辦理n.過程","protective adj.保護的；防護的","retrieve v.取回；恢復",
+            "state-of-the-art adj.最先進的","trial adj.試用的；試驗的n.試用；試驗","utilize v.利用","advance n.進步；事先v.進步；晉升","appointment n.(正式的)會面或約會",
+            "cancelation n.取消","chronic adj.慢性的；長期的","clinic n.診所","cold n.感冒；寒冷adj.寒冷的","concern n.關心；擔心","contagious adj.有傳染性的",
+            "dehydrate v.脫水；使乾燥","dental adj.牙齒的；牙科的","diagnosis n.診斷","distraction n.分心；使分心的人事物","drowsiness n.睡意；睏倦",
+            "fatigue n.疲勞；勞累","fever n.發燒；熱度","infectious adj.(經空氣)傳染的","injure v.傷害；損害","insurance n.保險","medical adj.醫療的；醫學的",
+            "medicine n.藥品；醫藥","mental adj.心理的","operation n.手術；操作","out of shape phr.健康不佳；體能差","patient n.病患adj.有耐心的",
+            "pharmaceutical adj.藥品的","pharmacy n.藥房","physical adj.身體的","physician n.醫師；內科醫生","practitioner n.執業醫師；實踐者",
+            "prescription n.處方；藥方","recovery n.恢復；痊癒","relieve v.緩和；減輕","remedy n.治療；藥物","sneeze v.打噴嚏n.噴嚏","sore throat n.喉嚨痛",
+            "surgical adj.外科的","symptom n.症狀；徵侯","tablet n.藥片","take a break phr.休息一下","vaccinate v.接種疫苗","abundant adj.充足的；豐富的",
+            "ancient adj.古老的；古代的","biologist n.生物學家","coastal adj.沿海的；海岸的","conservation n.保護；保存","corrosion n.腐蝕；侵蝕",
+            "damage v.損害；毀壞n.損害；損失","ecology n.生態學","emission n.排出；散發","endangered adj.瀕臨絕種的","extinction n.滅絕；消滅","fertilizer n.肥料",
+            "flammable adj.易燃的；可燃的","flooding n.洪水；泛濫","fluctuate v.波動；上下起伏","footpath n.小徑","forest n.森林","frigid adj.寒冷的；嚴寒的",
+            "grain n.穀物","habit n.習慣；習性","harvest v.收成；收穫n.收穫(季)","inclement adj.氣候嚴酷的","indigenous adj.本土的；本地的","passageway n.通道；走廊",
+            "pollen n.花粉","pollution n.汙染","preserve v.保護；保存","promptly adv.及時地；迅速地","protection n.保護；防護","province n.省；州","recycling n.回收",
+            "shore n.海濱；濱岸","species n.種類","splendor n.光輝；壯觀","suburb n.郊區","surround v.圍繞；包圍","valley n.山谷","waste n.廢料；浪費v.浪費",
+            "weed n.雜草","withstand v.抵擋；禁得起","afraid adj.擔心的；害怕的","appeal v.吸引；迎合","appreciate v.欣賞；感激","aware adj.察覺的；體認的",
+            "breathtakingly adv.令人震驚地；令人屏息地","complaint n.投訴；抱怨","concentrate v.專注；集中","conclusion n.結論；推論","confident adj.有信心的",
+            "congenial adj.友善的","convinced adj.確信的","decision n.決定；決心","delighted adj.高興的；欣喜的","disappointed adj.失望的；沮喪的","familiar adj.熟悉的",
+            "favorable adj.有利的；贊同的","frustrated adj.挫敗的；灰心的","grateful adj.感激的","highly regarded phr.聲望高的；備受尊崇的",
+            "immensely adv.極度地；廣大地","imply v.意味著","impressed adj.印象深刻的","look forward to phr.期待","mind v.介意","notice v.注意；通知n.公告；通知",
+            "optimistic adj.樂觀的","patience n.耐心","personal adj.個人的；私人的","pleasantly adv.愉快地","probably adv.或許；可能地","recognize v.認出；認可",
+            "refuse v.拒絕","regard v.看待；認為","relief n.(痛苦、負擔的)緩和；減輕","skeptical adj.懷疑的","suggestion n.建議；提議","surprised adj.感到驚訝的",
+            "uncomfortably adv.不自在地；不舒服地","understandable adj.可理解的","worth adj.值得的","access v.進入；有權使用n.進入","approach v.靠近；即將到達",
+            "attain v.獲得；達到","attempt v.試圖；企圖n.嘗試","block v.阻塞；堵住n.街區；積木","bring v.帶來；拿來","carefully adv.小心謹慎地；仔細地",
+            "closet n.壁櫥；衣櫥","compile v.匯編；收集","container n.(盒、箱、罐子等)容器","cookware n.廚具","cutting board n.砧板","dig v.挖掘","discard v.拋棄；丟棄",
+            "drop off phr.將...放下；讓...下車","errand n.雜務","garage n.車庫","go through phr.通過；經歷","hectic adj.忙亂的","immediately adv.立即地",
+            "infrequently adv.不頻繁地；罕見地","jar n.罐；瓶","knob n.旋鈕","ladder n.梯子","lean v.傾斜；依賴","lock v.鎖上n.鎖","plant v.種植n.植物；工廠",
+            "pot n.盆；鍋","rack n.架子；衣架","rectangular adj.長方形的","remove v.移開；移除","routinely adv.慣例地；例行性地","saucepan n.平底鍋","scissors n.剪刀",
+            "seal v.密封","shake v.握(手)；搖晃","sort v.把..分類、整理","utensil n.器具","water v.澆水n.水","wrap v.包裝"];
+        const enl = en.length - 1;
+        var ansl = 0
+        var score = 0;
+        var time = -1;
+        var game = false;
+        var newText = "";
+        var oldText = "";
+        $("#start").hide();
+        $("#ans").hide();
+        $("#ansch").hide();
+        $("#score").hide();
+        $("#logout").hide();
+        $("#leaderboard").hide();
+        function updateData() {
+            var postData = new FormData();
+            postData.append('account', account);
+            postData.append('hs', hs);
+            postData.append('t', t);
+            axios.post(url, postData).then(({ data }) => {
+            });
+        }
+        function login() {
+            if ($("#account").val() === '' && $("#password").val() === '') {
+                alert("帳號密碼不得為空");
+                $("#account").focus();
+            } else if ($("#account").val() === '') {
+                alert("帳號不得為空");
+                $("#account").focus();
+            } else if($("#password").val() === ''){
+                $("#password").focus();
+                alert("密碼不得為空");
+            }else{
+                account = $("#account").val();
+                password = $("#password").val();
+                axios.get(url).then(({ data }) => {
+                    s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account && data[i].password == password) {
+                            hs = data[i].hs;
+                            t = data[i].t;
+                            $("#start").show();
+                            $(".logdata").hide();
+                            $("#logout").show();
+                            $("#leaderboard").show();
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        alert("帳號或密碼錯誤");
+                    }
+                });
+            }
+        }
+        $(document).keydown(function (event) {
+            if (game) {
+                oldText = $("#ans span:first-child").text();
+                newText = $("#ans span:nth-child(2)").text();
+                if (newText.charAt(0) === event.key) {
+                    oldText += newText.charAt(0)
+                    newText = newText.substring(1);
+                    $("#ans span:nth-child(2)").text(newText);
+                    $("#ans span:first-child").text(oldText);
+                    if (oldText.length === ansl) {
+                        newText = en[Math.round(Math.random() * enl)]
+                        ansl = newText.lastIndexOf(" ");
+                        $("#ans span:nth-child(2)").text(newText.substring(0, ansl));
+                        $("#ansch").text(newText.slice(ansl));
+                        $("#ans span:first-child").text("");
+                        score++;
+                        $("#score").text("score:" + score + " time:" + time);
+                    }
+                } else {
+                    $("#ans span:nth-child(2)").text(oldText + newText);
+                    $("#ans span:first-child").text("");
+                }
+            } else {
+                if (event.which == 13 && time==-1) {
+                    $('#login').click();
+                }
+            }
+        });
+        function c() {
+            var newText = en[Math.round(Math.random() * enl)]
+            ansl = newText.lastIndexOf(" ");
+            $("#ans span:nth-child(2)").text(newText.substring(0, ansl));
+            $("#ansch").text(newText.slice(ansl));
+            $("#ans span:first-child").text("");
+            time = 60;
+            game = true;
+            $("#start").hide();
+            $("#ans").show();
+            $("#score").show();
+            $("#ansch").show();
+            $("#logout").hide();
+            $("#leaderboard").hide();
+            score = 0;
+            $("#score").text("score:" + score + " time:" + time);
+            count = setInterval(function () {
+                if (game) {
+                    time -= 1;
+                    if (time == 0) {
+                        game = false;
+                        $("#start").show();
+                        $("#logout").show();
+                        $("#leaderboard").show();
+                        t++;
+                        if (hs < score) {
+                            hs = score;
+                        }
+                        updateData();
+                        clearInterval(count)
+                    }
+                    $("#score").text("score:" + score + " time:" + time);
+                }
+            }, 1000);
+        }
+        function o(){
+            $(".logdata").show();
+            $("#logout").hide();
+            $("#start").hide();
+            $("#ans").hide();
+            $("#score").hide();
+            $("#ansch").hide();
+            $("#leaderboard").hide();
+        }
+    </script>
+</body>
+
+</html>

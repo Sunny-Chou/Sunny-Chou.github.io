@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+}
+#score{
+    color: dimgrey;
+    width: 100px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    top:5px;
+    left: 620px;
+    font-family: 'Arial Black';
+}
+#hs{
+    color: dimgrey;
+    width: 160px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    top:5px;
+    left: 500px;
+    font-family: 'Arial Black';
+    visibility: hidden;
+}
+#game{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    overflow:hidden;
+}
+#character{
+    height: 45px;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+.animate{
+    animation: jump 500ms;
+}
+#block{
+    height: 30px;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+}
+#block2{
+    height: 30px;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+}
+#block3{
+    height: 30px;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+}
+#block4{
+    height: 30px;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+}
+.animate2{
+    animation: block 2s linear;
+}
+#ground{
+    position: absolute;
+    top: 150px;
+    left:-1058px;
+    height: 50px;
+    z-index: -1;
+    animation: ground 2.2273684210526315789473684210526s infinite linear;
+}
+#r{
+    width: 42px;
+    position: absolute;
+    top: 82px;
+    left: 329px;
+    visibility: hidden;
+    z-index: 3;
+}#go{
+    color: dimgrey;
+    font-family: 'Arial Black';
+    font-size: 20px;
+    width: 340px;
+    height: 30px;
+    position: absolute;
+    top: 52px;
+    left: 249px;
+    visibility: hidden;
+    z-index: 4;
+}
+@keyframes block{
+    0%{left:800px;}
+    100%{left:-150px;}
+}
+@keyframes ground{
+    0%{left:0px;}
+    100%{left:-1058px;}
+}
+@keyframes jump{
+    0%{top:100px;}
+    30%{top:50px;}
+    70%{top:50px;}
+    100%{top:100px;}
+}

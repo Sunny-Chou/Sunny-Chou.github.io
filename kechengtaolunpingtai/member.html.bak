@@ -1,0 +1,334 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>分享課程心得平台</title>
+
+	<style>
+	ul{ /* 取消ul預設的內縮及樣式 */
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		color:#FFFFFF;
+	}
+
+	ul.menu { /*把文字設定為行內元素、改變字體*/
+		display: inline-block;
+		font-size: 35px;
+		color:#FFFFFF;
+	}
+
+	ul.menu > li {
+		float: left; /*靠左對齊*/
+	}
+	ul.menu a { /*設定框內的文字、條件*/
+		background-color:#FDBC96;
+		color: white;
+		display: block;
+		padding: 0 20px;
+		text-decoration: none;
+		line-height: 70px;
+ 		opacity: 0.8;
+
+	}
+	ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
+		background-color: pink;
+		color: #fff;
+	}
+	ul.menu a:active{ /* 滑鼠滑入按鈕變色*/
+		background-color: pink;
+		color: #fff;
+	}
+
+		
+	#menu{  /*保持在畫面上方*/
+		position:fixed;
+		top:25px;
+		left:150px;
+		z-index:3;
+	}
+	
+	body{
+		background-color:#FFFAF0
+	}
+		
+	#rectangle {
+		position: absolute;
+		top:25px;
+		left:50px;
+		width: 1400px;
+		height: 70px;
+		background-color: #FDBC96;
+	}
+	#circle {
+		position: absolute;
+		top:25px;
+		left:1420px;
+	    width: 70px;
+		height: 70px;
+		background-color: #FDBC96;
+		-moz-border-radius: 35px;
+		-webkit-border-radius: 35px;
+		border-radius: 35px;
+	}
+
+	#logo {
+		position: absolute;
+		height:100px;
+		top:8px;
+		left:20px;
+		z-index:4;
+	}
+	#out {
+		position: absolute;
+		top: 34.2px;
+		left: 1300px;
+		width:100px;
+		height:50px;
+		font-size:35px;
+		color:#6B4F0E;
+		z-index:5;
+		border:0;
+		background-color:#FDBC96;
+	}
+	
+	#index {
+      display: inline-block;
+      margin-left: 40px;
+      margin-top: 120px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+	/*內容*/
+    .container {
+      display: flex;
+      flex-direction: row;
+      height: 65vh;
+    }
+
+    .left-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .right-section {
+      flex: 1;
+      padding: 20px;
+    }
+    .profile {
+      position: absolute;
+	  text-align:center;
+	  left:50px;
+	  margin-top:50px;
+    }
+	#pencil{
+	   width: 20px;
+	   height: 20px;
+	}
+    #picture {
+      width: 250px;
+      height: 250px;
+    }
+    .profile-name {
+      font-size: 26px;
+      font-weight: bold;
+	  color: #E69138;
+	  margin-top:30px;
+    }
+	#name{
+	 font-weight: bold;
+	}
+	#name1{
+		
+	}
+    .details {
+	  margin-left:350px;
+	  margin-top:60px;
+      font-size: 28px;
+    }
+	
+	.starlove{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right:30px;
+	margin-bottom:10px;
+	}
+	.f3{
+		font-size: 26px;
+		padding-right:10px;
+	}
+	.f2{
+	    width: 50px;
+		height: 50px;
+		padding-right:10px;
+	}
+	.message-container {
+	  margin-right:30px;
+      height: 100%;
+      overflow-y: scroll;
+    }
+    .message-block {
+      background-color:#FEE4D5;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 20px;
+    }
+	.j2{/*小標題*/
+      font-size: 18px;
+      display: flex;
+      line-height:100%;
+      padding-left:40px;
+
+    }    
+	.j4{/*小內文*/
+      font-size: 10px;
+      display: flex;
+      line-height:100%;
+	  padding-left:40px;
+    }
+    .k2{/*小名字*/
+      font-size:16px;
+      padding: 0 5px;
+    }
+	.i4{/*小頭像*/
+      width: 40px;
+      height: 40px;
+    }
+	.function{
+		display: flex;
+		flex-direction: row;
+		margin-left:340px;
+		margin-top:60px;
+		font-size: 20px;
+		
+	}
+	.fun-img{
+      width: 60px;
+      height: 60px;
+	}
+	.f1{
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  padding:10px;
+	}
+	ul li {
+	  position: relative;
+
+	}
+	ul li a {
+	  display: block;
+	  text-decoration: none;
+	}
+	ul li ul {
+	  display: none;
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	}
+
+	ul li:hover > ul {
+	  display: block;
+	}
+	
+	.m1{
+		font-size:20px;
+	}
+	</style>
+</head>
+<body>	
+<!--導覽列-->
+		<img id="logo" src="logo.png" />
+	<ul class="menu" id="menu">
+        <li><a href="member.html">帳號會員</a></li>
+        <li><a href="index5.html">課程</a></li>
+        <li><a href="">商店</a>
+			<ul class = "m1">
+			<li><a href="index3.html">頭像</a></li>
+			<li><a href="index3_3.html">主題色</a></li>
+			<li><a href="index3_2.html">稱號</a></li>
+			</ul>
+		</li>
+        <li><a href="ask.html">懸賞區</a></li>
+    </ul>
+		<button type="button" id="out" >登出</button>
+		<div id="rectangle"></div>
+		<div id="circle"></div>
+	<div id="index">
+      >>>帳號會員
+    </div>
+
+<!--會員資料-->	
+	<div class="container">
+		<div class="left-section">
+			<div class="profile">
+				<div class="profile-picture"><img id ="picture" src="t1.png"></div>
+				<div class="profile-name">南大人<img id ="pencil" src="pencil.png"></div>
+			</div>
+			<div class="profile-details">
+				<div class="details">
+					<p id = "name1">猴猴大師<img id ="pencil" src="pencil.png"></p>
+					<p>數位學習科技學系 二年級</p>
+					<p id="name">張捷婷</p>
+				</div>
+				<div class="function">
+					<div class="f1"><img id ="fun-img" src="p1.png"><p>收藏</p></div>
+					<div class="f1"><img id ="fun-img" src="p2.png"><p>主題色</p></div>
+					<div class="f1"><img id ="fun-img" src="p3.png"><p>更改密碼</p></div>
+				</div>
+			</div>
+		</div>
+		
+    <div class="right-section">
+		<div class ="starlove">
+		<div class = "f3"><img src="love.png" class="f2">2</div>
+		<div class = "f3"><img src="star.png" class="f2">87</div>
+		</div>
+	<div class="message-container">
+      <div class="message-block">
+			<div style="display: flex;">
+				<img src="t1.png" class="i4">
+				<p class="k2">課程名稱-猴猴大師</p>
+			</div>
+			<p class="j2">文章標題</p>
+			<p  class="j4">文章內容</p>
+		  </div>
+		  <div class="message-block">
+			<div style="display: flex;">
+				<img src="t1.png" class="i4">
+				<p class="k2">課程名稱-猴猴大師</p>
+			</div>
+			<p class="j2">文章標題</p>
+			<p  class="j4">文章內容</p>
+		  </div>
+		  <div class="message-block">
+			<div style="display: flex;">
+				<img src="t1.png" class="i4">
+				<p class="k2">課程名稱-猴猴大師</p>
+			</div>
+			<p class="j2">文章標題</p>
+			<p  class="j4">文章內容</p>
+		  </div>
+		  <div class="message-block">
+			<div style="display: flex;">
+				<img src="t1.png" class="i4">
+				<p class="k2">課程名稱-猴猴大師</p>
+			</div>
+			<p class="j2">文章標題</p>
+			<p  class="j4">文章內容</p>
+		  </div>
+		  <div class="message-block">
+			<div style="display: flex;">
+				<img src="t1.png" class="i4">
+				<p class="k2">課程名稱-猴猴大師</p>
+			</div>
+			<p class="j2">文章標題</p>
+			<p  class="j4">文章內容</p>
+		  </div>
+	  </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hand football</title>
+  </head>
+  <body>
+      <div id="cdiv" style="z-index: -1;position: absolute; top:0px; left:0px;">
+          <canvas id="c"></canvas>
+      </div>
+      <div id="c2div" style="z-index: 1;position: absolute; top:0px; left:0px;">
+        <canvas id="c2"></canvas>
+      </div>
+    
+
+    <script src="index.js"></script>
+    <div id="ask" style="z-index: 2;position:absolute; text-align: center; font-weight: bold; color: #B87070;">先得到</div>
+    <input id="in" type="number" style="z-index: 2;position:absolute; text-align: center;" min="1" value="10">
+    <input id="button" type="button" style="z-index: 2;position:absolute; text-align: center; background-color: white; font-weight: bold;" value="開始遊戲">
+    <div id="ask2" style="z-index: 2;position:absolute; text-align: center; font-weight: bold; color: #9999CC;">分獲勝</div>
+    <div id="b" style="z-index: 2;position:absolute;visibility: hidden; text-align: center;">0</div>
+    <div id="r" style="z-index: 2;position:absolute;visibility: hidden; text-align: center;">0</div>
+    <div id="whowin" style="z-index: 2;position:absolute; visibility: hidden; text-align: center;">獲勝!!</div>
+    <input type="button" id="again" style="z-index: 2;position:absolute; text-align: center; visibility: hidden; font-weight: bold;" value="重新開始遊戲">
+    <div id="goal" style="z-index: 2;position:absolute; visibility: hidden; text-align: center; font-weight: bold;">得分!</div>
+    <div id="skill" style="z-index: 2;position: absolute; visibility:hidden; text-align: center; font-weight: bold;">使用穿透術!</div>
+    <div id="bcd" style='z-index: 2;position: absolute; visibility: hidden; text-align: center; font-weight: bold; color: white;'>10</div>
+    <div id="rcd" style='z-index: 2;position: absolute; visibility: hidden; text-align: center; font-weight: bold; color: white;'>10</div>
+    <div style="z-index: 0;">
+      <img src='p/skill.jpg'id="bskill" style='position: absolute; visibility: hidden;text-align: center;'>
+      <img src='p/skill.jpg'id="rskill" style='position: absolute; visibility: hidden; text-align: center;'>
+    </div>
+  </body>
+</html>
