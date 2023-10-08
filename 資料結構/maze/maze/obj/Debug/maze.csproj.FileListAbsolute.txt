@@ -1,0 +1,15 @@
+C:\Users\SUNNY\source\C#\maze\maze\bin\Debug\maze.exe
+C:\Users\SUNNY\source\C#\maze\maze\bin\Debug\maze.exe.config
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\MainWindow.g.cs
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\App.g.cs
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze_MarkupCompile.cache
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze_MarkupCompile.lref
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\MainWindow.baml
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.g.resources
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.Properties.Resources.resources
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.csproj.GenerateResource.cache
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.csproj.CoreCompileInputs.cache
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.exe
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.pdb
+C:\Users\SUNNY\source\C#\maze\maze\bin\Debug\maze.pdb
+C:\Users\SUNNY\source\C#\maze\maze\obj\Debug\maze.csprojAssemblyReference.cache

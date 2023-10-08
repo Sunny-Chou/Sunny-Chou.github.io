@@ -1,0 +1,3 @@
+Minimum Edit Distances 的抄襲程度是 0.9375
+Levenshtein Distance 的抄襲程度是 0.9375
+Time: 1ms

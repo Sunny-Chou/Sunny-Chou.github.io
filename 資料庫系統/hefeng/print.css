@@ -1,0 +1,14 @@
+@media print {
+    .NotPrint {
+       display:none;
+    }
+    .PrintUnit {
+       page-break-before:always;
+       page-break-inside:avoid;
+    }
+}
+
+@page{
+    size: A4 portrait;
+    margin: 1cm;
+}

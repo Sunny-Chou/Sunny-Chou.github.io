@@ -1,0 +1,10 @@
+﻿  Calculator.cpp
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(72,26): warning C4018: '<': signed/unsigned 不相符
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(75,31): warning C4018: '<': signed/unsigned 不相符
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(131,13): warning C4018: '<': signed/unsigned 不相符
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(161,46): warning C4018: '<': signed/unsigned 不相符
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(211,11): warning C4473: 'scanf' : 傳遞給格式字串的引數不足
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(211,11): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(211,11): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+C:\Users\SUNNY\source\C\Calculator\Calculator\Calculator.cpp(70): warning C4715: 'convertToken': 不是所有控制路徑都傳回值
+  Calculator.vcxproj -> C:\Users\SUNNY\source\C\Calculator\Debug\Calculator.exe

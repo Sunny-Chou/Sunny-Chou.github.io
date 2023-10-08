@@ -1,0 +1,13 @@
+原始檔案第1段和比對檔案的段抄襲程度(Minimum Edit Distances)是 0.251046
+原始檔案第1段和比對檔案的段抄襲程度(Levenshtein Distance)是 0
+原始檔案第2段和比對檔案的段抄襲程度(Minimum Edit Distances)是 0.25283
+原始檔案第2段和比對檔案的段抄襲程度(Levenshtein Distance)是 0.090566
+Minimum Edit Distances :
+兩篇文章抄襲程度 : 0.251938
+輸出段抄襲程度的變異數 : 7.9581e-07
+輸出段抄襲程度的標準差 : 0.000892082
+Levenshtein Distance :
+兩篇文章抄襲程度 : 0.045283
+輸出段抄襲程度的變異數 : 0.00205055
+輸出段抄襲程度的標準差 : 0.045283
+Time: 13ms

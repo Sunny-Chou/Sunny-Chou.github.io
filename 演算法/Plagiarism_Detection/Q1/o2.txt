@@ -1,0 +1,3 @@
+Minimum Edit Distances is 1482
+Levenshtein Distance is 2134
+Time: 198ms

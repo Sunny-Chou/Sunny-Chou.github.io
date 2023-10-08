@@ -1,0 +1,2009 @@
+原始檔案第1段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第1段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第2段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第2段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第3段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第3段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第4段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第4段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第5段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第5段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第6段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第6段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第7段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第7段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第8段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第8段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第9段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第9段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第10段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第10段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第11段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第11段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第12段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第12段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第13段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第13段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第14段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第14段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第15段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第15段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第16段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第16段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第17段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第17段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第18段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第18段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第19段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第19段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第20段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第20段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第21段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第21段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第22段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第22段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第23段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第23段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第24段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第24段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第25段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第25段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第26段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第26段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第27段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第27段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第28段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第28段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第29段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第29段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第30段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第30段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第31段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第31段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第32段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第32段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第33段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第33段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第34段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第34段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第35段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第35段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第36段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第36段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第37段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第37段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第38段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第38段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第39段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第39段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第40段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第40段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第41段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第41段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第42段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第42段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第43段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第43段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第44段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第44段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第45段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第45段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第46段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第46段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第47段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第47段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第48段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第48段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第49段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第49段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第50段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第50段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第51段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第51段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第52段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第52段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第53段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第53段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第54段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第54段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第55段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第55段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第56段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第56段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第57段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第57段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第58段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第58段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第59段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第59段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第60段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第60段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第61段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第61段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第62段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第62段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第63段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第63段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第64段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第64段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第65段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第65段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第66段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第66段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第67段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第67段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第68段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第68段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第69段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第69段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第70段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第70段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第71段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第71段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第72段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第72段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第73段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第73段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第74段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第74段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第75段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第75段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第76段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第76段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第77段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第77段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第78段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第78段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第79段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第79段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第80段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第80段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第81段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第81段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第82段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第82段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第83段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第83段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第84段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第84段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第85段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第85段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第86段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第86段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第87段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第87段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第88段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第88段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第89段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第89段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第90段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第90段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第91段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第91段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第92段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第92段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第93段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第93段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第94段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第94段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第95段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第95段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第96段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第96段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第97段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第97段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第98段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第98段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第99段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第99段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第100段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第100段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第101段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第101段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第102段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第102段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第103段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第103段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第104段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第104段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第105段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第105段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第106段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第106段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第107段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第107段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第108段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第108段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第109段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第109段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第110段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第110段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第111段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第111段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第112段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第112段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第113段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第113段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第114段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第114段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第115段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第115段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第116段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第116段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第117段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第117段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第118段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第118段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第119段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第119段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第120段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第120段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第121段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第121段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第122段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第122段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第123段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第123段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第124段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第124段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第125段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第125段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第126段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第126段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第127段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第127段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第128段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第128段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第129段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第129段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第130段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第130段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第131段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第131段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第132段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第132段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第133段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第133段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第134段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第134段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第135段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第135段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第136段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第136段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第137段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第137段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第138段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第138段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第139段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第139段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第140段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第140段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第141段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第141段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第142段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第142段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第143段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第143段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第144段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第144段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第145段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第145段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第146段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第146段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第147段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第147段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第148段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第148段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第149段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第149段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第150段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第150段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第151段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第151段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第152段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第152段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第153段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第153段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第154段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第154段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第155段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第155段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第156段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第156段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第157段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第157段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第158段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第158段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第159段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第159段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第160段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第160段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第161段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第161段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第162段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第162段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第163段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第163段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第164段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第164段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第165段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第165段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第166段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第166段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第167段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第167段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第168段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第168段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第169段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第169段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第170段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第170段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第171段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第171段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第172段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第172段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第173段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第173段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第174段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第174段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第175段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第175段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第176段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第176段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第177段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第177段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第178段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第178段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第179段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第179段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第180段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第180段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第181段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第181段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第182段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第182段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第183段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第183段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第184段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第184段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第185段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第185段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第186段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第186段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第187段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第187段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第188段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第188段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第189段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第189段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第190段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第190段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第191段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第191段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第192段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第192段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第193段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第193段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第194段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第194段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第195段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第195段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第196段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第196段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第197段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第197段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第198段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第198段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第199段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第199段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第200段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第200段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第201段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第201段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第202段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第202段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第203段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第203段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第204段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第204段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第205段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第205段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第206段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第206段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第207段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第207段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第208段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第208段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第209段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第209段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第210段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第210段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第211段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第211段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第212段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第212段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第213段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第213段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第214段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第214段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第215段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第215段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第216段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第216段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第217段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第217段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第218段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第218段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第219段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第219段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第220段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第220段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第221段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第221段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第222段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第222段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第223段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第223段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第224段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第224段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第225段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第225段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第226段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第226段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第227段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第227段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第228段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第228段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第229段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第229段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第230段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第230段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第231段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第231段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第232段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第232段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第233段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第233段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第234段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第234段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第235段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第235段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第236段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第236段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第237段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第237段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第238段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第238段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第239段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第239段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第240段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第240段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第241段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第241段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第242段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第242段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第243段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第243段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第244段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第244段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第245段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第245段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第246段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第246段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第247段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第247段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第248段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第248段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第249段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第249段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第250段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第250段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第251段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第251段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第252段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第252段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第253段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第253段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第254段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第254段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第255段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第255段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第256段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第256段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第257段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第257段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第258段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第258段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第259段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第259段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第260段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第260段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第261段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第261段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第262段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第262段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第263段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第263段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第264段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第264段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第265段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第265段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第266段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第266段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第267段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第267段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第268段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第268段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第269段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第269段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第270段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第270段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第271段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第271段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第272段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第272段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第273段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第273段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第274段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第274段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第275段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第275段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第276段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第276段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第277段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第277段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第278段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第278段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第279段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第279段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第280段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第280段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第281段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第281段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第282段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第282段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第283段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第283段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第284段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第284段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第285段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第285段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第286段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第286段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第287段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第287段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第288段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第288段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第289段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第289段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第290段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第290段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第291段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第291段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第292段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第292段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第293段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第293段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第294段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第294段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第295段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第295段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第296段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第296段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第297段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第297段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第298段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第298段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第299段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第299段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第300段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第300段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第301段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第301段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第302段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第302段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第303段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第303段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第304段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第304段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第305段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第305段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第306段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第306段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第307段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第307段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第308段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第308段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第309段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第309段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第310段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第310段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第311段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第311段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第312段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第312段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第313段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第313段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第314段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第314段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第315段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第315段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第316段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第316段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第317段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第317段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第318段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第318段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第319段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第319段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第320段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第320段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第321段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第321段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第322段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第322段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第323段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第323段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第324段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第324段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第325段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第325段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第326段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第326段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第327段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第327段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第328段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第328段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第329段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第329段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第330段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第330段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第331段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第331段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第332段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第332段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第333段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第333段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第334段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第334段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第335段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第335段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第336段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第336段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第337段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第337段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第338段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第338段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第339段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第339段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第340段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第340段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第341段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第341段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第342段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第342段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第343段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第343段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第344段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第344段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第345段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第345段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第346段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第346段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第347段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第347段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第348段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第348段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第349段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第349段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第350段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第350段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第351段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第351段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第352段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第352段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第353段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第353段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第354段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第354段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第355段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第355段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第356段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第356段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第357段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第357段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第358段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第358段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第359段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第359段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第360段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第360段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第361段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第361段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第362段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第362段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第363段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第363段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第364段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第364段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第365段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第365段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第366段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第366段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第367段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第367段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第368段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第368段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第369段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第369段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第370段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第370段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第371段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第371段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第372段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第372段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第373段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第373段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第374段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第374段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第375段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第375段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第376段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第376段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第377段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第377段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第378段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第378段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第379段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第379段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第380段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第380段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第381段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第381段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第382段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第382段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第383段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第383段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第384段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第384段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第385段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第385段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第386段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第386段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第387段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第387段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第388段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第388段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第389段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第389段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第390段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第390段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第391段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第391段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第392段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第392段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第393段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第393段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第394段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第394段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第395段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第395段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第396段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第396段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第397段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第397段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第398段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第398段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第399段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第399段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第400段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第400段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第401段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第401段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第402段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第402段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第403段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第403段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第404段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第404段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第405段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第405段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第406段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第406段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第407段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第407段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第408段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第408段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第409段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第409段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第410段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第410段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第411段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第411段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第412段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第412段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第413段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第413段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第414段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第414段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第415段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第415段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第416段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第416段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第417段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第417段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第418段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第418段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第419段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第419段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第420段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第420段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第421段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第421段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第422段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第422段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第423段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第423段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第424段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第424段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第425段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第425段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第426段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第426段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第427段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第427段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第428段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第428段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第429段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第429段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第430段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第430段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第431段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第431段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第432段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第432段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第433段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第433段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第434段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第434段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第435段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第435段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第436段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第436段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第437段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第437段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第438段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第438段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第439段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第439段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第440段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第440段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第441段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第441段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第442段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第442段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第443段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第443段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第444段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第444段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第445段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第445段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第446段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第446段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第447段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第447段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第448段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第448段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第449段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第449段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第450段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第450段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第451段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第451段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第452段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第452段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第453段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第453段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第454段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第454段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第455段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第455段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第456段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第456段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第457段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第457段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第458段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第458段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第459段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第459段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第460段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第460段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第461段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第461段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第462段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第462段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第463段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第463段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第464段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第464段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第465段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第465段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第466段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第466段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第467段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第467段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第468段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第468段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第469段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第469段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第470段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第470段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第471段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第471段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第472段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第472段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第473段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第473段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第474段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第474段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第475段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第475段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第476段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第476段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第477段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第477段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第478段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第478段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第479段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第479段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第480段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第480段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第481段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第481段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第482段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第482段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第483段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第483段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第484段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第484段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第485段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第485段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第486段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第486段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第487段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第487段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第488段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第488段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第489段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第489段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第490段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第490段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第491段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第491段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第492段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第492段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第493段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第493段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第494段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第494段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第495段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第495段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第496段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第496段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第497段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第497段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第498段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第498段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第499段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第499段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第500段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第500段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第501段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第501段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第502段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第502段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第503段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第503段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第504段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第504段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第505段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第505段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第506段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第506段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第507段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第507段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第508段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第508段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第509段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第509段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第510段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第510段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第511段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第511段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第512段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第512段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第513段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第513段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第514段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第514段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第515段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第515段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第516段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第516段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第517段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第517段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第518段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第518段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第519段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第519段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第520段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第520段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第521段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第521段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第522段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第522段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第523段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第523段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第524段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第524段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第525段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第525段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第526段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第526段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第527段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第527段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第528段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第528段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第529段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第529段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第530段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第530段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第531段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第531段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第532段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第532段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第533段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第533段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第534段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第534段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第535段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第535段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第536段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第536段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第537段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第537段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第538段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第538段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第539段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第539段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第540段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第540段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第541段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第541段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第542段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第542段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第543段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第543段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第544段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第544段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第545段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第545段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第546段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第546段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第547段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第547段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第548段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第548段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第549段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第549段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第550段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第550段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第551段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第551段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第552段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第552段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第553段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第553段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第554段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第554段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第555段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第555段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第556段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第556段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第557段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第557段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第558段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第558段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第559段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第559段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第560段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第560段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第561段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第561段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第562段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第562段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第563段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第563段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第564段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第564段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第565段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第565段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第566段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第566段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第567段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第567段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第568段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第568段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第569段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第569段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第570段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第570段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第571段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第571段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第572段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第572段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第573段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第573段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第574段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第574段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第575段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第575段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第576段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第576段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第577段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第577段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第578段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第578段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第579段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第579段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第580段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第580段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第581段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第581段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第582段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第582段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第583段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第583段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第584段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第584段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第585段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第585段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第586段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第586段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第587段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第587段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第588段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第588段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第589段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第589段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第590段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第590段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第591段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第591段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第592段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第592段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第593段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第593段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第594段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第594段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第595段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第595段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第596段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第596段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第597段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第597段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第598段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第598段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第599段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第599段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第600段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第600段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第601段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第601段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第602段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第602段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第603段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第603段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第604段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第604段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第605段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第605段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第606段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第606段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第607段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第607段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第608段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第608段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第609段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第609段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第610段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第610段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第611段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第611段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第612段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第612段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第613段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第613段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第614段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第614段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第615段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第615段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第616段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第616段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第617段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第617段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第618段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第618段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第619段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第619段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第620段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第620段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第621段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第621段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第622段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第622段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第623段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第623段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第624段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第624段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第625段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第625段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第626段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第626段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第627段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第627段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第628段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第628段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第629段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第629段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第630段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第630段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第631段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第631段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第632段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第632段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第633段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第633段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第634段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第634段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第635段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第635段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第636段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第636段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第637段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第637段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第638段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第638段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第639段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第639段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第640段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第640段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第641段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第641段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第642段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第642段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第643段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第643段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第644段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第644段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第645段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第645段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第646段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第646段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第647段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第647段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第648段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第648段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第649段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第649段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第650段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第650段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第651段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第651段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第652段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第652段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第653段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第653段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第654段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第654段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第655段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第655段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第656段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第656段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第657段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第657段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第658段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第658段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第659段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第659段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第660段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第660段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第661段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第661段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第662段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第662段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第663段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第663段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第664段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第664段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第665段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第665段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第666段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第666段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第667段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第667段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第668段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第668段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第669段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第669段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第670段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第670段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第671段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第671段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第672段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第672段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第673段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第673段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第674段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第674段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第675段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第675段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第676段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第676段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第677段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第677段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第678段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第678段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第679段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第679段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第680段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第680段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第681段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第681段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第682段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第682段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第683段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第683段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第684段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第684段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第685段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第685段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第686段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第686段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第687段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第687段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第688段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第688段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第689段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第689段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第690段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第690段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第691段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第691段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第692段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第692段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第693段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第693段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第694段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第694段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第695段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第695段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第696段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第696段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第697段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第697段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第698段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第698段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第699段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第699段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第700段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第700段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第701段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第701段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第702段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第702段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第703段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第703段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第704段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第704段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第705段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第705段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第706段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第706段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第707段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第707段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第708段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第708段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第709段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第709段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第710段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第710段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第711段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第711段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第712段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第712段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第713段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第713段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第714段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第714段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第715段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第715段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第716段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第716段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第717段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第717段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第718段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第718段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第719段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第719段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第720段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第720段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第721段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第721段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第722段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第722段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第723段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第723段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第724段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第724段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第725段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第725段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第726段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第726段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第727段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第727段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第728段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第728段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第729段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第729段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第730段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第730段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第731段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第731段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第732段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第732段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第733段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第733段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第734段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第734段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第735段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第735段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第736段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第736段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第737段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第737段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第738段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第738段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第739段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第739段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第740段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第740段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第741段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第741段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第742段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第742段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第743段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第743段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第744段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第744段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第745段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第745段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第746段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第746段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第747段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第747段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第748段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第748段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第749段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第749段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第750段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第750段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第751段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第751段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第752段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第752段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第753段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第753段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第754段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第754段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第755段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第755段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第756段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第756段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第757段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第757段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第758段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第758段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第759段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第759段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第760段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第760段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第761段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第761段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第762段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第762段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第763段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第763段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第764段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第764段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第765段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第765段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第766段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第766段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第767段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第767段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第768段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第768段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第769段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第769段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第770段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第770段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第771段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第771段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第772段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第772段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第773段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第773段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第774段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第774段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第775段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第775段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第776段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第776段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第777段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第777段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第778段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第778段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第779段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第779段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第780段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第780段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第781段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第781段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第782段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第782段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第783段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第783段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第784段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第784段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第785段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第785段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第786段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第786段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第787段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第787段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第788段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第788段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第789段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第789段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第790段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第790段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第791段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第791段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第792段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第792段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第793段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第793段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第794段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第794段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第795段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第795段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第796段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第796段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第797段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第797段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第798段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第798段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第799段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第799段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第800段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第800段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第801段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第801段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第802段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第802段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第803段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第803段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第804段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第804段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第805段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第805段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第806段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第806段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第807段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第807段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第808段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第808段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第809段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第809段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第810段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第810段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第811段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第811段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第812段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第812段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第813段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第813段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第814段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第814段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第815段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第815段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第816段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第816段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第817段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第817段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第818段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第818段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第819段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第819段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第820段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第820段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第821段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第821段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第822段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第822段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第823段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第823段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第824段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第824段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第825段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第825段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第826段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第826段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第827段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第827段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第828段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第828段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第829段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第829段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第830段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第830段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第831段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第831段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第832段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第832段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第833段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第833段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第834段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第834段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第835段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第835段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第836段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第836段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第837段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第837段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第838段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第838段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第839段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第839段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第840段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第840段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第841段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第841段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第842段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第842段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第843段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第843段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第844段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第844段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第845段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第845段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第846段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第846段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第847段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第847段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第848段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第848段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第849段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第849段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第850段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第850段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第851段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第851段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第852段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第852段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第853段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第853段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第854段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第854段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第855段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第855段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第856段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第856段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第857段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第857段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第858段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第858段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第859段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第859段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第860段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第860段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第861段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第861段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第862段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第862段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第863段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第863段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第864段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第864段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第865段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第865段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第866段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第866段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第867段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第867段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第868段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第868段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第869段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第869段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第870段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第870段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第871段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第871段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第872段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第872段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第873段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第873段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第874段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第874段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第875段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第875段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第876段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第876段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第877段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第877段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第878段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第878段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第879段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第879段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第880段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第880段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第881段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第881段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第882段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第882段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第883段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第883段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第884段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第884段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第885段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第885段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第886段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第886段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第887段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第887段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第888段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第888段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第889段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第889段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第890段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第890段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第891段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第891段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第892段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第892段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第893段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第893段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第894段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第894段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第895段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第895段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第896段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第896段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第897段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第897段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第898段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第898段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第899段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第899段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第900段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第900段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第901段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第901段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第902段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第902段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第903段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第903段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第904段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第904段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第905段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第905段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第906段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第906段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第907段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第907段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第908段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第908段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第909段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第909段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第910段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第910段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第911段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第911段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第912段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第912段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第913段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第913段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第914段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第914段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第915段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第915段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第916段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第916段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第917段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第917段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第918段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第918段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第919段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第919段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第920段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第920段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第921段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第921段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第922段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第922段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第923段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第923段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第924段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第924段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第925段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第925段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第926段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第926段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第927段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第927段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第928段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第928段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第929段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第929段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第930段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第930段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第931段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第931段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第932段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第932段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第933段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第933段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第934段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第934段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第935段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第935段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第936段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第936段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第937段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第937段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第938段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第938段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第939段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第939段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第940段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第940段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第941段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第941段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第942段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第942段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第943段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第943段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第944段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第944段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第945段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第945段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第946段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第946段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第947段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第947段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第948段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第948段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第949段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第949段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第950段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第950段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第951段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第951段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第952段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第952段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第953段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第953段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第954段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第954段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第955段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第955段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第956段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第956段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第957段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第957段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第958段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第958段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第959段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第959段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第960段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第960段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第961段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第961段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第962段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第962段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第963段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第963段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第964段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第964段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第965段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第965段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第966段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第966段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第967段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第967段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第968段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第968段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第969段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第969段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第970段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第970段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第971段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第971段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第972段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第972段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第973段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第973段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第974段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第974段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第975段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第975段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第976段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第976段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第977段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第977段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第978段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第978段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第979段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第979段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第980段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第980段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第981段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第981段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第982段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第982段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第983段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第983段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第984段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第984段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第985段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第985段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第986段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第986段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第987段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第987段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第988段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第988段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第989段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第989段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第990段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第990段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第991段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第991段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第992段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第992段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第993段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第993段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第994段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第994段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第995段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第995段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第996段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第996段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第997段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第997段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第998段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第998段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第999段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第999段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+原始檔案第1000段和比對檔案的段抄襲程度(Minimum Edit Distances)是 1
+原始檔案第1000段和比對檔案的段抄襲程度(Levenshtein Distance)是 1
+Minimum Edit Distances :
+兩篇文章抄襲程度 : 1
+輸出段抄襲程度的變異數 : 0
+輸出段抄襲程度的標準差 : 0
+Levenshtein Distance :
+兩篇文章抄襲程度 : 1
+輸出段抄襲程度的變異數 : 0
+輸出段抄襲程度的標準差 : 0
+Time: 4136ms
