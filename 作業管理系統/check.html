@@ -102,6 +102,7 @@
         var hwtype;//作業名稱列表
         var selectedstu;//選中學生
         var selectedhw;//選中學生的功課內容
+        let hwt = [];//作業是範圍還是數字
         $(document).ready(function () {
             axios.get(url).then(({ data }) => {
                 var account = sessionStorage.getItem("登入");
@@ -137,6 +138,8 @@
                     var temp = hwtype[0].slice(0, 1);
                     options = [temp];
                     for (var i = 0; i < hwtype.length; i++) {
+                        hwt.push(hwtype[i].slice(-1));
+                        hwtype[i] = hwtype[i].slice(0, -1);
                         if (temp != hwtype[i].slice(0, 1)) {
                             temp = hwtype[i].slice(0, 1);
                             options.push(temp);
@@ -151,7 +154,7 @@
                     options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.includes($('#type option:selected').text().toString()));
                     options.forEach(function (option) {
                         var optionElement = document.createElement("option");
-                        optionElement.text = option.slice(1,-1);
+                        optionElement.text = option.slice(1);
                         $('#homework').append(optionElement);
                     });
                     stu = studata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString());
@@ -187,7 +190,7 @@
                         options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.toString().includes($('#type option:selected').text().toString()));
                         options.forEach(function (option) {
                             var optionElement = document.createElement("option");
-                            optionElement.text = option.slice(1,-1);
+                            optionElement.text = option.slice(1);
                             $('#homework').append(optionElement);
                         });
                         if ($('#homework option:selected').text().toString() == "") {
@@ -213,7 +216,7 @@
                         options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.includes($('#type option:selected').text().toString()));
                         options.forEach(function (option) {
                             var optionElement = document.createElement("option");
-                            optionElement.text = option.slice(1,-1);
+                            optionElement.text = option.slice(1);
                             $('#homework').append(optionElement);
                         });
                         if ($('#homework option:selected').text().toString() == "") {
@@ -259,7 +262,7 @@
                         options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.includes($('#type option:selected').text().toString()));
                         options.forEach(function (option) {
                             var optionElement = document.createElement("option");
-                            optionElement.text = option.slice(1,-1);
+                            optionElement.text = option.slice(1);
                             $('#homework').append(optionElement);
                         });
                         if ($('#homework option:selected').text().toString() == "") {
@@ -299,6 +302,7 @@
                         postData.append('classname', selectedstu.classname);
                         postData.append('name', selectedstu.name);
                         postData.append('homework', selectedstu.homework);
+                        console.log(selectedstu.homework);
                         axios.post(stuurl, postData).then(({ data }) => {
                             alert("修改成功！");
                             $("#state").html("已檢查OK");
