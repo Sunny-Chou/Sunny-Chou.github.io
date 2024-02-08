@@ -94,7 +94,7 @@
                 <div id="di">第</div>
                 <input id="s" type="number" min="1" oninput="checkMinValue()" value="1">
                 <div id="dash">~</div>
-                <input id="b" type="number" min="1" oninput="checkMinValue()" value="1">
+                <input id="b" type="number" min="1" value="1">
                 <div id="kind"></div>
             </div>
             <div style="display: flex; align-items: center;">
@@ -276,6 +276,10 @@
                                 if ($("#s").val() == $("#b").val()) {
                                     var newhw = "第" + $("#s").val() + $("#kind").html();
                                 } else {
+                                    if($("#s").val()>$("#b").val()){
+                                        alert("右邊數字需>=左邊數字");
+                                        return;
+                                    }
                                     var newhw = "第" + $("#s").val() + "~" + $("#b").val() + $("#kind").html();
                                 }
                             } else {
