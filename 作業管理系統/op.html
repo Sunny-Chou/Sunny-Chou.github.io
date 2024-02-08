@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>學生作業管理系統</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+        }
+
+        button:hover {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <button id="assign">指派作業</button>
+    <button id="check">批改作業</button>
+    <button id="update">更改所有資料</button>
+    <button id="pass">更改密碼</button>
+    <button id="logout">登出</button>
+    <script>
+        var url = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
+        var stuurl = "https://script.google.com/macros/s/AKfycbyWY69K8OpTj5laSoubzcOwBqgOR9yADinFNUFdbvxFYB7M6oQWtIXfWPY7wqwrVTWAfQ/exec";
+        var hwurl = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
+        $(document).ready(function () {
+            const expirationTimeInMilliseconds = 600000;
+            let timer;
+            function resetTimer() {
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    sessionStorage.removeItem('登入');
+                }, expirationTimeInMilliseconds);
+            }
+            document.addEventListener('mousemove', resetTimer);
+            document.addEventListener('keypress', resetTimer);
+            document.addEventListener('touchstart', resetTimer);
+            resetTimer();
+            axios.get(url).then(({ data }) => {
+                var account = sessionStorage.getItem("登入");
+                var s = true;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].account == account) {
+                        s = false;
+                        break;
+                    }
+                }
+                if (s) {
+                    sessionStorage.removeItem('登入');
+                    alert("逾時沒有操作，請重新登入");
+                    window.location = "index.html";
+                }
+            });
+            $("#assign").click(function () {
+                axios.get(url).then(({ data }) => {
+                    var account = sessionStorage.getItem("登入");
+                    var s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account) {
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        sessionStorage.removeItem('登入');
+                        alert("逾時沒有操作，請重新登入");
+                        window.location = "index.html";
+                    } else {
+                        window.location = "assign.html";
+                    }
+                });
+            });
+            $("#check").click(function () {
+                axios.get(url).then(({ data }) => {
+                    var account = sessionStorage.getItem("登入");
+                    var s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account) {
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        sessionStorage.removeItem('登入');
+                        alert("逾時沒有操作，請重新登入");
+                        window.location = "index.html";
+                    } else {
+                        window.location = "check.html";
+                    }
+                });
+            });
+            $("#update").click(function () {
+                axios.get(url).then(({ data }) => {
+                    var account = sessionStorage.getItem("登入");
+                    var s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account) {
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        sessionStorage.removeItem('登入');
+                        alert("逾時沒有操作，請重新登入");
+                        window.location = "index.html";
+                    } else {
+                        window.location = "update.html";
+                    }
+                });
+            });
+            $("#pass").click(function () {
+                axios.get(url).then(({ data }) => {
+                    var account = sessionStorage.getItem("登入");
+                    var s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account) {
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        sessionStorage.removeItem('登入');
+                        alert("逾時沒有操作，請重新登入");
+                        window.location = "index.html";
+                    } else {
+                        window.location = "password.html";
+                    }
+                });
+            });
+            $("#logout").click(function () {
+                sessionStorage.removeItem('登入');
+                window.location = "index.html";
+            });
+        });
+    </script>
+</body>
+
+</html>

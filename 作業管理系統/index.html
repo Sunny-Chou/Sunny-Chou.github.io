@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #account,
+        #password {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 40px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        #login {
+            width: 100px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+        }
+
+        .labels {
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        #login:hover,
+        #account:focus,
+        #password:focus {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+    </style>
+    <title>學生作業管理系統</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="text-container" style="text-align: center;">
+        <div class="logdata" style="display: flex; align-items: center;">
+            <p class="labels" style="margin: 0;">帳號：</p>
+            <input id="account" type="text">
+        </div>
+        <div class="logdata" style="display: flex; align-items: center;">
+            <p class="labels" style="margin: 0;">密碼：</p>
+            <input id="password" type="password">
+        </div>
+        <button class="logdata" id="login" onclick="login()">登入</button>
+    </div>
+    <script>
+        var url = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
+        async function hashPassword(password) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(password);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
+            return hashHex;
+        }
+        $(document).ready(function () {
+            if (sessionStorage.getItem("登入") != null) {
+                window.location = "op.html";
+            }
+            $(document).keypress(function (event) {
+                if (event.which === 13) {
+                    $("#login").click();
+                }
+            });
+            $("#login").click(function () {
+                if ($("#account").val() === '' && $("#password").val() === '') {
+                    alert("帳號密碼不得為空");
+                    $("#account").focus();
+                } else if ($("#account").val() === '') {
+                    alert("帳號不得為空");
+                    $("#account").focus();
+                } else if ($("#password").val() === '') {
+                    $("#password").focus();
+                    alert("密碼不得為空");
+                } else {
+                    var account;
+                    var password;
+                    hashPassword($("#account").val())
+                        .then(hash => {
+                            account = hash;
+                        })
+                        .catch(error => {
+                        });
+                    hashPassword($("#password").val())
+                        .then(hash => {
+                            password = hash;
+                        })
+                        .catch(error => {
+                        });
+                    axios.get(url).then(({ data }) => {
+                        var s = true;
+                        for (var i = 0; i < data.length; i++) {
+                            if (data[i].account == account && data[i].password == password) {
+                                s = false;
+                                sessionStorage.setItem("登入", account);
+                                break;
+                            }
+                        }
+                        if (s) {
+                            alert("帳號或密碼錯誤");
+                        } else {
+                            window.location = "op.html";
+                        }
+                    });
+
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

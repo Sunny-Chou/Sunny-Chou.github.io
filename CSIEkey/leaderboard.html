@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>排行榜</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-weight: bold;
+    }
+
+    .leaderboard {
+      background-color: #fff;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 50px 100px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(75, 54, 118);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid rgb(75, 54, 118);
+    }
+
+    th {
+      color: white;
+      background-color: rgb(75, 54, 118);
+    }
+
+    tr {
+      color: rgb(75, 54, 118);
+    }
+
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid rgb(75, 54, 118);
+    }
+
+    tr:hover {
+      background-color: rgb(75, 54, 118);
+      color: white;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+  <div class="leaderboard">
+    <h1>排行榜</h1>
+    <table>
+      <tr>
+        <th>排名</th>
+        <th>姓名</th>
+        <th>分數</th>
+        <th>遊玩次數</th>
+      </tr>
+    </table>
+  </div>
+  <script>
+    var url = "https://script.google.com/macros/s/AKfycbx0mHqFT49nWiluW49G7hkdX2jMVeI5255iEfsaho9byLNQoqx4spV181-VSAq__spB/exec";
+    $(document).ready(function () {
+      axios.get(url).then(({ data }) => {
+        data.sort(function (a, b) {
+          return b.hs - a.hs;
+        });
+        var leader=[];
+        var j=1;
+        for(var i=0;i<data.length-1; i++){
+          leader.push(j);
+          if(data[i].hs>data[i+1].hs){
+            j+=1;
+          }
+        }
+        leader.push(j);
+        for (var i = 0; i < data.length; i++) {
+          var newRow = $('<tr>');
+          if (leader[i] <= 3) {
+            newRow.append($('<td>').append("<img style='width:40px' src='p/"+leader[i]+".png'>"));
+          } else {
+            newRow.append($('<td>').text(leader[i]));
+          }
+
+          newRow.append($('<td>').text(data[i].account));
+          newRow.append($('<td>').text(data[i].hs));
+          newRow.append($('<td>').text(data[i].t));
+          $('table').append(newRow);
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html>

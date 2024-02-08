@@ -1,0 +1,38 @@
+<script>
+    function countWaysToMakeChange(coins, amount) {
+    let dp = new Array(amount + 1).fill(0);
+    dp[0] = 1;  // 0元只有一种方式，不用找零
+
+    for (const coin of coins) {
+        for (let i = coin; i <= amount; i++) {
+            dp[i] += dp[i - coin];
+        }
+    }
+
+    return dp;
+}
+function countWaysToMakeChange2(coins,amount,index) {
+    if (amount === 0) {
+            return 1;
+        }
+        
+        // 如果 amount 小於 0 或者 coins 都用完了，找零失敗
+        if (amount < 0 || index < 0) {
+            return 0;
+        }
+        
+        // 選擇使用第 index 枚硬幣或者不使用
+        const useCoin = countWaysToMakeChange2(coins, amount - coins[index], index);
+        const skipCoin = countWaysToMakeChange2(coins, amount, index - 1);
+        
+        // 回傳使用和不使用的方式總和
+        return useCoin + skipCoin;
+}
+const coins = [1,5,10];
+const amount = 30;
+
+let ways = countWaysToMakeChange(coins, amount);
+console.log(ways);
+ways = countWaysToMakeChange2(coins, amount,2);
+console.log(ways);
+</script>

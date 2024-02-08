@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>學生作業管理系統</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        select {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            width: 200px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+        }
+
+        input {
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+
+        label,
+        div {
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        input:focus {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <div style="display: flex; align-items: center;">
+                <label>班級：</label>
+                <select id="classname"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label>科目：</label>
+                <select id="type"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label>作業：</label>
+                <select id="homework"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div id="di">第</div>
+                <input id="s" type="number" min="1" oninput="checkMinValue()" value="1">
+                <div id="dash">~</div>
+                <input id="b" type="number" min="1" oninput="checkMinValue()" value="1">
+                <div id="kind"></div>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label id="state"></label>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <button id="no">取消指派</button>
+                <button id="ok">指派</button>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <div style="display: flex; align-items: center;">
+                <button id="clear" style="width: auto;">清空所有班級作業指派</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function checkMinValue() {
+            var input1 = document.getElementById("b");
+            var input2 = document.getElementById("s");
+            if (parseInt(input1.value) < parseInt(input2.value)) {
+                input1.value = input2.value;
+            }
+        }
+        var url = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
+        var hwurl = "https://script.google.com/macros/s/AKfycbzf6kznWJNmu6dXpKleFVzOLYfP2EZYQ9RwDwj_cx2mnxNYDBIWMExq0Xl37LkhBt1-/exec";
+        var hwdata;//作業全部
+        var hwtype;//作業名稱列表
+        var classhw;//該班級的作業
+        let hwt = [];//作業是範圍還是數字
+        $(document).ready(function () {
+            const expirationTimeInMilliseconds = 600000;
+            let timer;
+            function resetTimer() {
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    sessionStorage.removeItem('登入');
+                }, expirationTimeInMilliseconds);
+            }
+            document.addEventListener('mousemove', resetTimer);
+            document.addEventListener('keypress', resetTimer);
+            document.addEventListener('touchstart', resetTimer);
+            resetTimer();
+            axios.get(url).then(({ data }) => {
+                var account = sessionStorage.getItem("登入");
+                var s = true;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].account == account) {
+                        s = false;
+                        break;
+                    }
+                }
+                if (s) {
+                    sessionStorage.removeItem('登入');
+                    alert("逾時沒有操作，請重新登入");
+                    window.location = "index.html";
+                }
+                axios.get(hwurl).then(({ data }) => {
+                    hwdata = data;
+                    var options = hwdata.map(row => row.classname).slice(1);
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option;
+                        $('#classname').append(optionElement);
+                    });
+                    hwtype = hwdata[0].homework;
+                    var temp = hwtype[0].slice(0, 1);
+                    options = [temp];
+                    for (var i = 0; i < hwtype.length; i++) {
+                        hwt.push(hwtype[i].slice(-1));
+                        hwtype[i] = hwtype[i].slice(0, -1);
+                        if (temp != hwtype[i].slice(0, 1)) {
+                            temp = hwtype[i].slice(0, 1);
+                            options.push(temp);
+                        }
+                    }
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option;
+                        $('#type').append(optionElement);
+                    });
+                    options = hwtype.filter(row => row.includes($('#type option:selected').text().toString()));
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option.slice(1);
+                        $('#homework').append(optionElement);
+                    });
+                    classhw = hwdata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString()).map(row => row.homework)[0];
+                    if (classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] != 0) {
+                        $('#state').html("已指派" + classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())]);
+                    } else {
+                        $('#state').html("還未指派");
+                    }
+                    $("#kind").html($("#homework option:selected").text().toString().slice(-2, -1));
+                    if (hwt[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] == 'r') {
+                        $("#di").show();
+                        $("#dash").show();
+                        $("#b").show();
+                    } else {
+                        $("#di").hide();
+                        $("#dash").hide();
+                        $("#b").hide();
+                    }
+                    $("#classname").change(function () {
+                        classhw = hwdata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString()).map(row => row.homework)[0];
+                        if (classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] != 0) {
+                            $('#state').html("已指派" + classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())]);
+                        } else {
+                            $('#state').html("還未指派");
+                        }
+                        $("#kind").html($("#homework option:selected").text().toString().slice(-2, -1));
+                        if (hwt[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] == 'r') {
+                            $("#di").show();
+                            $("#dash").show();
+                            $("#b").show();
+                        } else {
+                            $("#di").hide();
+                            $("#dash").hide();
+                            $("#b").hide();
+                        }
+                    });
+                    $("#type").change(function () {
+                        $("#homework").empty();
+                        options = hwtype.filter(row => row.includes($('#type option:selected').text().toString()));
+                        options.forEach(function (option) {
+                            var optionElement = document.createElement("option");
+                            optionElement.text = option.slice(1);
+                            $('#homework').append(optionElement);
+                        });
+                        if (classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] != 0) {
+                            $('#state').html("已指派" + classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())]);
+                        } else {
+                            $('#state').html("還未指派");
+                        }
+                        $("#kind").html($("#homework option:selected").text().toString().slice(-2, -1));
+                        if (hwt[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] == 'r') {
+                            $("#di").show();
+                            $("#dash").show();
+                            $("#b").show();
+                        } else {
+                            $("#di").hide();
+                            $("#dash").hide();
+                            $("#b").hide();
+                        }
+                    });
+                    $("#homework").change(function () {
+                        if (classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] != 0) {
+                            $('#state').html("已指派" + classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())]);
+                        } else {
+                            $('#state').html("還未指派");
+                        }
+                        $("#kind").html($("#homework option:selected").text().toString().slice(-2, -1));
+                        if (hwt[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] == 'r') {
+                            $("#di").show();
+                            $("#dash").show();
+                            $("#b").show();
+                        } else {
+                            $("#di").hide();
+                            $("#dash").hide();
+                            $("#b").hide();
+                        }
+                    });
+                    $("#ok").click(function () {
+                        axios.get(url).then(({ data }) => {
+                            var account = sessionStorage.getItem("登入");
+                            var s = true;
+                            for (var i = 0; i < data.length; i++) {
+                                if (data[i].account == account) {
+                                    s = false;
+                                    break;
+                                }
+                            }
+                            if (s) {
+                                sessionStorage.removeItem('登入');
+                                alert("逾時沒有操作，請重新登入");
+                                window.location = "index.html";
+                            }
+                            if (hwt[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] == 'r') {
+                                if ($("#s").val() == $("#b").val()) {
+                                    var newhw = "第" + $("#s").val() + $("#kind").html();
+                                } else {
+                                    var newhw = "第" + $("#s").val() + "~" + $("#b").val() + $("#kind").html();
+                                }
+                            } else {
+                                var newhw = $("#s").val() + $("#kind").html();
+                            }
+                            classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] = newhw;
+                            var postData = new FormData();
+                            postData.append('op', "更新");
+                            postData.append('classname', $("#classname option:selected").text().toString());
+                            postData.append('homework', classhw);
+                            axios.post(hwurl, postData).then(({ data }) => {
+                                alert("修改成功！");
+                                $("#state").html("已指派" + newhw);
+                            }).catch(error => {
+                                alert("修改失敗！");
+                                location.reload();
+                            });
+                        });
+                    });
+                    $("#no").click(function () {
+                        axios.get(url).then(({ data }) => {
+                            var account = sessionStorage.getItem("登入");
+                            var s = true;
+                            for (var i = 0; i < data.length; i++) {
+                                if (data[i].account == account) {
+                                    s = false;
+                                    break;
+                                }
+                            }
+                            if (s) {
+                                sessionStorage.removeItem('登入');
+                                alert("逾時沒有操作，請重新登入");
+                                window.location = "index.html";
+                            }
+                            classhw[hwtype.indexOf($("#type option:selected").text().toString() + $("#homework option:selected").text().toString())] = 0;
+                            var postData = new FormData();
+                            postData.append('op', "更新");
+                            postData.append('classname', $("#classname option:selected").text().toString());
+                            postData.append('homework', classhw);
+                            axios.post(hwurl, postData).then(({ data }) => {
+                                alert("修改成功！");
+                                $("#state").html("還未指派");
+                            }).catch(error => {
+                                alert("修改失敗！");
+                                location.reload();
+                            });
+                        });
+                    });
+                    $("#clear").click(function () {
+                        axios.get(url).then(({ data }) => {
+                            var account = sessionStorage.getItem("登入");
+                            var s = true;
+                            for (var i = 0; i < data.length; i++) {
+                                if (data[i].account == account) {
+                                    s = false;
+                                    break;
+                                }
+                            }
+                            if (s) {
+                                sessionStorage.removeItem('登入');
+                                alert("逾時沒有操作，請重新登入");
+                                window.location = "index.html";
+                            }
+                            var c = confirm("請問是否要清空所有班級的作業？");
+                            if (c) {
+                                var postData = new FormData();
+                                postData.append('op', "清空作業");
+                                axios.post(hwurl, postData).then(({ data }) => {
+                                    alert("修改成功！");
+                                    $("#state").html("還未指派");
+                                }).catch(error => {
+                                    alert("修改失敗！");
+                                    location.reload();
+                                });
+                            }
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

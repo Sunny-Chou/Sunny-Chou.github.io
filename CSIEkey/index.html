@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #ans {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        #ansch,#score{
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 26px;
+        }
+        #account {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 40px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        #password {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 40px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+        }
+        #login,#logout,#start,#leaderboard {
+            width: 100px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+        }
+        .labels {
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        #login:hover,#logout:hover,#start:hover,#leaderboard:hover,#account:focus,#password:focus {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+    </style>
+    <title>多益打字遊戲</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="text-container" style="text-align: center;">
+        <div class="logdata" style="display: flex; align-items: center;">
+            <p class="labels" style="margin: 0;">帳號：</p>
+            <input id="account" type="text">
+        </div>
+        <div class="logdata" style="display: flex; align-items: center;">
+            <p class="labels" style="margin: 0;">密碼：</p>
+            <input id="password" type="password">
+        </div>
+        <button class="logdata" id="login" onclick="login()">登入</button>
+        <p id="score">score:0 time:60</p>
+        <p id="ans"><span style="color: rgb(75, 54, 118); text-decoration: underline;"></span>
+            <span style="color: rgb(135, 114, 177);"></span></p>
+        <p id="ansch"></p>
+        <button id="start" onclick="c();">開始</button>
+        <button id="leaderboard" onclick="window.open('leaderboard.html', '_blank');">排行榜</button>
+        <button id="logout" onclick="o();">登出</button>
+    </div>
+    <script>
+        var url = "https://script.google.com/macros/s/AKfycbx0mHqFT49nWiluW49G7hkdX2jMVeI5255iEfsaho9byLNQoqx4spV181-VSAq__spB/exec";
+        var account = "";
+        var password = "";
+        var hs = 0;
+        var t = 0;
+        const en = ["consume v.消耗","combinatorial adj.組合的",
+        "association n.關聯","remote adj.遠程的","inference n.推論",
+        "factory n.工廠","parameter n.參數","extension n.擴展",
+        "configure v.配置","distribution n.分佈","overlap v.重疊",
+        "approximate v.近似","contradiction n.矛盾","organization n.組織",
+        "static adj.靜態的","transistor n.電晶體",
+        "augmented reality n.擴增實境","data compression n.資料壓縮",
+        "acyclic adj.非環狀的","recognition n.識別","prototype n.原型",
+        "proposal n.提議","resistor n.電阻器","template n.模板",
+        "protein n.蛋白質","dimension n.維度","representation n.表示",
+        "implementation n.實作","rotation n.旋轉","interrupt v.中斷",
+        "parenthesis n.括號","probability n.機率","initialize v.初始化",
+        "current n.電流","virtual reality n.虛擬實境","object-oriented programming n.物件導向",
+        "schedule n.日程表","superior adj.優越的","establish v.建立",
+        "ambiguous adj.模糊不清的","opponent n.對手","outcome n.結果",
+        "compete v.競爭","talent n.才能","essential adj.重要的",
+        "prefix n.前綴","exponential adj.指數的","miscellaneous adj.雜項的",
+        "heuristic n.啟發式","cube n.立方","integer n.整數","adder n.加法器",
+        "semiconductor n.半導體","frequency n.頻率","substitution n.替代",
+        "evolution n.演化","contradict v.反駁","inheritance n.繼承",
+        "mutation n.突變","describe v.描述","quantity n.數量","fortunate adj.幸運的",
+        "monitor n.監控器","option n.選項","audio n.音訊","budget n.預算",
+        "segment n.段落","communication protocol n.通訊協定","format n.格式",
+        "experiment n.實驗","central processing unit n.CPU中央處理器",
+        "random access memory n.RAM隨機存取記憶體","read-only memory n.ROM唯讀記憶體",
+        "throughput n.吞吐量","conclusion n.結論","illustrate v.舉例說明",
+        "candidate n.候選人","parallel adj.平行的","strategy n.策略",
+        "variant n.變種","analog adj.類比的","abstract n.摘要",
+        "symmetric adj.對稱的","voltage n.電壓","approximate adj.近似的",
+        "conversion n.轉換","fragment n.片段","proof 證明",
+        "integrated circuit n.IC積體電路","algorithm n.演算法","dynamic adj.動態的",
+        "fake adj.偽造的","future n.未來","feature n.特徵","insight n.洞察",
+        "scheme n.計畫","capacitor n.電容器","frequency n.頻率",
+        "quadratic adj.二次的","previous adj.先前的","proportional adj.比例的",
+        "density n.密度","horizontal adj.水平的","improve v.改進",
+        "circuit n.電路","sensor n.感測器","artificial intelligence n.AI人工智慧",
+        "equation n.方程式","simulation n.模擬","network n.網路","encryption n.加密",
+        "database n.資料庫","firewall n.防火牆","cybersecurity n.網路安全",
+        "router n.路由器","operating system n.作業系統","software n.軟體",
+        "hardware n.硬體","microcontroller n.微控制器",
+        "digital signal processing n.數位訊號處理","embedded systems n.嵌入式系統",
+        "artificial neural network n.人工神經網路","cloud computing n.雲端運算",
+        "data mining n.資料挖掘","computer vision n.電腦視覺",
+        "mobile computing n.行動運算","cache n.快取","latency n.延遲",
+        "bandwidth n.頻寬","robotics n.機器人技術","firmware n.韌體",
+        "debug n.偵錯","integrated development environment n.IDE整合開發環境",
+        "compiler n.編譯器","interface n.介面","transmission n.傳輸",
+        "nanotechnology n.奈米技術","automated adj.自動化的","digitalization n.數位化",
+        "quantum computing n.量子運算","analog-to-digital converter n.ADC模數轉換器",
+        "digital-to-analog converter n.DAC數模轉換器","authentication n.身分驗證",
+        "parallel processing n.平行處理","redundancy n.冗餘性","cyberattack n.網路攻擊",
+        "interface n.介面","load balancing n.負載平衡","digital signature n.數位簽章",
+        "network topology n.網絡拓撲","fusion n.融合","quantum cryptography n.量子密碼學",
+        "transmission control protocol n.TCP傳輸控制協定","internet protocol n.IP網際網路協定",
+        "information security n.資訊安全","optimization n.優化",
+        "software development life cycle n.SDLC軟體開發生命週期","theory n.理論",
+        "manufacturing n.製造","real-time n.實時","electrical grid n.電網",
+        "integration n.整合","holography n.全息術","forensics n.取證","mechanics n.力學",
+        "telecommunications n.電信","field-programmable gate array n.FPGA可程式邏輯閘陣列",
+        "optical fiber n.光纖","autonomous adj.自主的","cryptocurrency n.加密貨幣",
+        "retrieval n.檢索","genetic adj.遺傳的","biometric adj.生物的",
+        "renewable adj.可再生的","virtual private network n.VPN虛擬私人網路",
+        "compliance n.合規","concepts n.概念","principles n.原理",
+        "persistently adv.持續地","upgrade v.升級","update v.更新","deploy v.部署",
+        "recognize v.辨識","pattern n.模式","manage v.管理","anomaly n.異常",
+        "handle v.處理","visualize v.視覺化","diagnose v.診斷",
+        "issue n.問題","trend n.趨勢","enhance v.提升","experience n.體驗",
+        "permissions n.權限","achieve v.實現","innovative adj.創新的",
+        "efficient adj.效率高的","scalable adj.可擴展的","flexible adj.靈活的",
+        "performance n.效能","customized adj.自訂的","creative adj.創造性的",
+        "driven n.驅動","precisely adv.確切地","continuously adv.連續地",
+        "proactively adv.主動地","agilely adv.敏捷地","e-commerce n.電子商務",
+        "hard drive n.硬碟機","internet service provider n.ISP網際網路服務供應商",
+        "payment n.支付","interact v.互動","robotics n.機器人技術",
+        "automatic adj.自動化","rollout v.部署","migrate v.遷移","replicate v.複製",
+        "synchronize v.同步","troubleshoot v.排除故障","startup v.創業",
+        "entrepreneurial adj.創業的","high-end adj.高端的","laboratory adj.實驗室",
+        "promising adj.有前途的","inspirational adj.靈感的","revolutionary adj.革命性的",
+        "feasible adj.可行的","proactively adv.潛在地","gradually adv.逐漸地",
+        "steadfastly adv.堅定地","wisely adv.明智地","swiftly adv.迅速地",
+        "protect v.保護","optimize v.優化","maintain v.維護","hire v.僱用",
+        "reliable adj.可靠的","step-by-step adv.逐步地","quickly adv.快速地",
+        "user datagram protocol n.UDP使用者資料包協定","inductance n.電感器"
+    ];
+        const enl = en.length - 1;
+        var ansl = 0
+        var score = 0;
+        var time = -1;
+        var game = false;
+        var newText = "";
+        var oldText = "";
+        $("#start").hide();
+        $("#ans").hide();
+        $("#ansch").hide();
+        $("#score").hide();
+        $("#logout").hide();
+        $("#leaderboard").hide();
+        function updateData() {
+            var postData = new FormData();
+            postData.append('account', account);
+            postData.append('hs', hs);
+            postData.append('t', t);
+            axios.post(url, postData).then(({ data }) => {
+            });
+        }
+        function login() {
+            if ($("#account").val() === '' && $("#password").val() === '') {
+                alert("帳號密碼不得為空");
+                $("#account").focus();
+            } else if ($("#account").val() === '') {
+                alert("帳號不得為空");
+                $("#account").focus();
+            } else if($("#password").val() === ''){
+                $("#password").focus();
+                alert("密碼不得為空");
+            }else{
+                account = $("#account").val();
+                password = $("#password").val();
+                axios.get(url).then(({ data }) => {
+                    s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account && data[i].password == password) {
+                            hs = data[i].hs;
+                            t = data[i].t;
+                            $("#start").show();
+                            $(".logdata").hide();
+                            $("#logout").show();
+                            $("#leaderboard").show();
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        alert("帳號或密碼錯誤");
+                    }
+                });
+            }
+        }
+        $(document).keydown(function (event) {
+            if (game) {
+                oldText = $("#ans span:first-child").text();
+                newText = $("#ans span:nth-child(2)").text();
+                if (newText.charAt(0) === event.key) {
+                    oldText += newText.charAt(0)
+                    newText = newText.substring(1);
+                    $("#ans span:nth-child(2)").text(newText);
+                    $("#ans span:first-child").text(oldText);
+                    if (oldText.length === ansl) {
+                        newText = en[Math.round(Math.random() * enl)]
+                        ansl = newText.lastIndexOf(" ");
+                        $("#ans span:nth-child(2)").text(newText.substring(0, ansl));
+                        $("#ansch").text(newText.slice(ansl));
+                        $("#ans span:first-child").text("");
+                        score++;
+                        $("#score").text("score:" + score + " time:" + time);
+                    }
+                } else {
+                    $("#ans span:nth-child(2)").text(oldText + newText);
+                    $("#ans span:first-child").text("");
+                }
+            } else {
+                if (event.which == 13 && time==-1) {
+                    $('#login').click();
+                }
+            }
+        });
+        function c() {
+            var newText = en[Math.round(Math.random() * enl)]
+            ansl = newText.lastIndexOf(" ");
+            $("#ans span:nth-child(2)").text(newText.substring(0, ansl));
+            $("#ansch").text(newText.slice(ansl));
+            $("#ans span:first-child").text("");
+            time = 9999999999999;
+            game = true;
+            $("#start").hide();
+            $("#ans").show();
+            $("#score").show();
+            $("#ansch").show();
+            $("#logout").hide();
+            $("#leaderboard").hide();
+            score = 0;
+            $("#score").text("score:" + score + " time:" + time);
+            count = setInterval(function () {
+                if (game) {
+                    time -= 1;
+                    if (time == 0) {
+                        game = false;
+                        $("#start").show();
+                        $("#logout").show();
+                        $("#leaderboard").show();
+                        t++;
+                        if (hs < score) {
+                            hs = score;
+                        }
+                        updateData();
+                        clearInterval(count)
+                    }
+                    $("#score").text("score:" + score + " time:" + time);
+                }
+            }, 1000);
+        }
+        function o(){
+            $(".logdata").show();
+            $("#logout").hide();
+            $("#start").hide();
+            $("#ans").hide();
+            $("#score").hide();
+            $("#ansch").hide();
+            $("#leaderboard").hide();
+        }
+    </script>
+</body>
+
+</html>

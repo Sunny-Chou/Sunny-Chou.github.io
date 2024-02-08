@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>學生作業管理系統</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        select {
+            color: rgb(75, 54, 118);
+            height: 50px;
+            width: 200px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            border-radius: 30px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+        }
+
+        button:hover {
+            background-color: rgb(75, 54, 118);
+            color: white;
+        }
+
+        label {
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <div style="display: flex; align-items: center;">
+                <label>班級：</label>
+                <select id="classname"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label>姓名：</label>
+                <select id="name"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label>科目：</label>
+                <select id="type"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label>作業：</label>
+                <select id="homework"></select>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label id="contents"></label>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label id="state"></label>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <button id="no">不OK</button>
+                <button id="ok">OK</button>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <div style="display: flex; align-items: center;">
+                <label id="show"></label>
+            </div>
+        </div>
+    </div>
+    <script>
+        var url = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
+        var stuurl = "https://script.google.com/macros/s/AKfycbyWY69K8OpTj5laSoubzcOwBqgOR9yADinFNUFdbvxFYB7M6oQWtIXfWPY7wqwrVTWAfQ/exec";
+        var hwurl = "https://script.google.com/macros/s/AKfycbzf6kznWJNmu6dXpKleFVzOLYfP2EZYQ9RwDwj_cx2mnxNYDBIWMExq0Xl37LkhBt1-/exec";
+        var studata;//學生全部
+        var hwdata;//作業全部
+        var stu;//選中班級學生列表
+        var hw;//選中班級作業狀態列表
+        var hwtype;//作業名稱列表
+        var selectedstu;//選中學生
+        var selectedhw;//選中學生的功課內容
+        $(document).ready(function () {
+            axios.get(url).then(({ data }) => {
+                var account = sessionStorage.getItem("登入");
+                var s = true;
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].account == account) {
+                        s = false;
+                        break;
+                    }
+                }
+                if (s) {
+                    alert("逾時沒有操作，請重新登入");
+                    window.location = "index.html";
+                }
+            });
+            axios.get(stuurl).then(({ data }) => {
+                studata = data;
+                axios.get(hwurl).then(({ data }) => {
+                    hwdata = data;
+                    var options = hwdata.map(row => row.classname).slice(1);
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option;
+                        $('#classname').append(optionElement);
+                    });
+                    options = studata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString()).map(row => row.name);
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option;
+                        $('#name').append(optionElement);
+                    });
+                    hwtype = hwdata[0].homework;
+                    var temp = hwtype[0].slice(0, 1);
+                    options = [temp];
+                    for (var i = 0; i < hwtype.length; i++) {
+                        if (temp != hwtype[i].slice(0, 1)) {
+                            temp = hwtype[i].slice(0, 1);
+                            options.push(temp);
+                        }
+                    }
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option;
+                        $('#type').append(optionElement);
+                    });
+                    hw = hwdata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString())[0].homework;
+                    options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.includes($('#type option:selected').text().toString()));
+                    options.forEach(function (option) {
+                        var optionElement = document.createElement("option");
+                        optionElement.text = option.slice(1,-1);
+                        $('#homework').append(optionElement);
+                    });
+                    stu = studata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString());
+                    if ($('#homework option:selected').text().toString() == "") {
+                        $("#state").html("");
+                        $("#contents").html("");
+                    } else {
+                        $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
+                        var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
+                        if (tempstate != null) {
+                            tempstate = tempstate[0].homework[hwtype.findIndex(element => element.includes($('#type option:selected').text().toString() + $('#homework option:selected').text().toString()))];
+                            if (tempstate.toString() == "0") {
+                                $("#state").html("未檢查");
+                            } else if (tempstate.toString() == "1") {
+                                $("#state").html("檢查不OK");
+                            } else {
+                                $("#state").html("已檢查OK");
+                            }
+                        }
+                    }
+                    selectedstu = stu.filter(row => row.classname.toString() === $('#classname option:selected').text().toString() && row.name.toString() === $('#name option:selected').text().toString())[0];
+                    $("#classname").change(function () {
+                        stu = studata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString());
+                        hw = hwdata.filter(row => row.classname.toString() === $('#classname option:selected').text().toString())[0].homework;
+                        options = stu.map(row => row.name);
+                        $("#name").empty();
+                        options.forEach(function (option) {
+                            var optionElement = document.createElement("option");
+                            optionElement.text = option;
+                            $('#name').append(optionElement);
+                        });
+                        $("#homework").empty();
+                        options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.toString().includes($('#type option:selected').text().toString()));
+                        options.forEach(function (option) {
+                            var optionElement = document.createElement("option");
+                            optionElement.text = option.slice(1,-1);
+                            $('#homework').append(optionElement);
+                        });
+                        if ($('#homework option:selected').text().toString() == "") {
+                            $("#state").html("");
+                            $("#contents").html("");
+                        } else {
+                            $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
+                            var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
+                            if (tempstate != null) {
+                                tempstate = tempstate[0].homework[hwtype.findIndex(element => element.includes($('#type option:selected').text().toString() + $('#homework option:selected').text().toString()))];
+                                if (tempstate.toString() == "0") {
+                                    $("#state").html("未檢查");
+                                } else if (tempstate.toString() == "1") {
+                                    $("#state").html("檢查不OK");
+                                } else {
+                                    $("#state").html("已檢查OK");
+                                }
+                            }
+                        }
+                    });
+                    $("#type").change(function () {
+                        $("#homework").empty();
+                        options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.includes($('#type option:selected').text().toString()));
+                        options.forEach(function (option) {
+                            var optionElement = document.createElement("option");
+                            optionElement.text = option.slice(1,-1);
+                            $('#homework').append(optionElement);
+                        });
+                        if ($('#homework option:selected').text().toString() == "") {
+                            $("#state").html("");
+                            $("#contents").html("");
+                        } else {
+                            $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
+                            var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
+                            if (tempstate != null) {
+                                tempstate = tempstate[0].homework[hwtype.findIndex(element => element.includes($('#type option:selected').text().toString() + $('#homework option:selected').text().toString()))];
+                                if (tempstate.toString() == "0") {
+                                    $("#state").html("未檢查");
+                                } else if (tempstate.toString() == "1") {
+                                    $("#state").html("檢查不OK");
+                                } else {
+                                    $("#state").html("已檢查OK");
+                                }
+                            }
+                        }
+                    });
+                    $("#homework").change(function () {
+                        if ($('#homework option:selected').text().toString() == "") {
+                            $("#state").html("");
+                            $("#contents").html("");
+                        } else {
+                            $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
+                            var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
+                            if (tempstate != null) {
+                                tempstate = tempstate[0].homework[hwtype.findIndex(element => element.includes($('#type option:selected').text().toString() + $('#homework option:selected').text().toString()))];
+                                if (tempstate.toString() == "0") {
+                                    $("#state").html("未檢查");
+                                } else if (tempstate.toString() == "1") {
+                                    $("#state").html("檢查不OK");
+                                } else {
+                                    $("#state").html("已檢查OK");
+                                }
+                            }
+                        }
+                    });
+                    $("#name").change(function () {
+                        selectedstu = stu.filter(row => row.classname.toString() === $('#classname option:selected').text().toString() && row.name.toString() === $('#name option:selected').text().toString())[0];
+                        $("#homework").empty();
+                        options = hwtype.filter((value, index) => hw[index].toString() != "0" && value.includes($('#type option:selected').text().toString()));
+                        options.forEach(function (option) {
+                            var optionElement = document.createElement("option");
+                            optionElement.text = option.slice(1,-1);
+                            $('#homework').append(optionElement);
+                        });
+                        if ($('#homework option:selected').text().toString() == "") {
+                            $("#state").html("");
+                            $("#contents").html("");
+                        } else {
+                            $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
+                            var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
+                            if (tempstate != null) {
+                                tempstate = tempstate[0].homework[hwtype.findIndex(element => element.includes($('#type option:selected').text().toString() + $('#homework option:selected').text().toString()))];
+                                if (tempstate.toString() == "0") {
+                                    $("#state").html("未檢查");
+                                } else if (tempstate.toString() == "1") {
+                                    $("#state").html("檢查不OK");
+                                } else {
+                                    $("#state").html("已檢查OK");
+                                }
+                            }
+                        }
+                    });
+                    $("#no").click(function () {
+                        selectedstu.homework[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())] = 1;
+                        var postData = new FormData();
+                        postData.append('op', "更新");
+                        postData.append('classname', selectedstu.classname);
+                        postData.append('name', selectedstu.name);
+                        postData.append('homework', selectedstu.homework);
+                        axios.post(stuurl, postData).then(({ data }) => {
+                            alert("修改成功！");
+                            $("#state").html("檢查不OK");
+                        });
+                    });
+                    $("#ok").click(function () {
+                        selectedstu.homework[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())] = 2;
+                        var postData = new FormData();
+                        postData.append('op', "更新");
+                        postData.append('classname', selectedstu.classname);
+                        postData.append('name', selectedstu.name);
+                        postData.append('homework', selectedstu.homework);
+                        axios.post(stuurl, postData).then(({ data }) => {
+                            alert("修改成功！");
+                            $("#state").html("已檢查OK");
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
