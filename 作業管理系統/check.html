@@ -302,7 +302,6 @@
                         postData.append('classname', selectedstu.classname);
                         postData.append('name', selectedstu.name);
                         postData.append('homework', selectedstu.homework);
-                        console.log(selectedstu.homework);
                         axios.post(stuurl, postData).then(({ data }) => {
                             alert("修改成功！");
                             $("#state").html("已檢查OK");
@@ -312,7 +311,6 @@
             });
         });
     </script>
-
 </body>
 
 </html>
