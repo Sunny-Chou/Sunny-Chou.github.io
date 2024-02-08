@@ -14,11 +14,11 @@
         }
 
         button {
-            width: 150px;
-            height: 50px;
-            border-radius: 30px;
+            height: 100px;
+            width: 350px;
+            border-radius: 50px;
             border: 3px solid rgb(75, 54, 118);
-            font-size: 20px;
+            font-size: 40px;
             font-family: 微軟正黑體;
             font-weight: bold;
             margin: 10px;
@@ -36,11 +36,25 @@
 </head>
 
 <body>
-    <button id="assign">指派作業</button>
-    <button id="check">批改作業</button>
-    <button id="update">更改所有資料</button>
-    <button id="pass">更改密碼</button>
-    <button id="logout">登出</button>
+    <div style="text-align: center;">
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <div style="display: flex; align-items: center;">
+                <button id="assign">指派作業</button>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <button id="check">批改作業</button>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <button id="update">更改所有資料</button>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <button id="pass">更改密碼</button>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <button id="logout">登出</button>
+            </div>
+        </div>
+    </div>
     <script>
         var url = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
         var stuurl = "https://script.google.com/macros/s/AKfycbyWY69K8OpTj5laSoubzcOwBqgOR9yADinFNUFdbvxFYB7M6oQWtIXfWPY7wqwrVTWAfQ/exec";
