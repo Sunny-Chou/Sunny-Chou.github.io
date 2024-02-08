@@ -45,6 +45,9 @@
                 <button id="check">批改作業</button>
             </div>
             <div style="display: flex; align-items: center;">
+                <button id="show">查看作業進度</button>
+            </div>
+            <div style="display: flex; align-items: center;">
                 <button id="update">更改所有資料</button>
             </div>
             <div style="display: flex; align-items: center;">
@@ -122,6 +125,25 @@
                         window.location = "index.html";
                     } else {
                         window.location = "check.html";
+                    }
+                });
+            });
+            $("#show").click(function () {
+                axios.get(url).then(({ data }) => {
+                    var account = sessionStorage.getItem("登入");
+                    var s = true;
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].account == account) {
+                            s = false;
+                            break;
+                        }
+                    }
+                    if (s) {
+                        sessionStorage.removeItem('登入');
+                        alert("逾時沒有操作，請重新登入");
+                        window.location = "index.html";
+                    } else {
+                        window.location = "show.html";
                     }
                 });
             });
