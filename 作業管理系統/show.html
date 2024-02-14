@@ -165,16 +165,16 @@
                             rows[index].appendChild(nameCell);
                             for (var i = 0; i < hwt.length; i++) {
                                 var hw = chw.homework.filter(row => row[0].includes(hwt[i]));
+                                var hwstate = name.homework.filter((row,index)=>chw.homework[index][0].includes(hwt[i]));
                                 var index2 = index;
                                 for (var j = 0; j < hw.length; j++) {
                                     var hwCell = document.createElement("td");
                                     hwCell.textContent = hw[j].slice(1);
-                                    if (cname[indexs].homework[j].toString() == "0") {
+                                    if (hwstate[j].toString() == "0") {
                                         hwCell.textContent += "(未檢查)";
-                                    } else if (cname[indexs].homework[j].toString() == "1") {
+                                    } else if (hwstate[j].toString() == "1") {
                                         hwCell.textContent += "(檢查不OK)";
                                     } else {
-                                        console.log(cname[indexs].homework[j].toString())
                                         hwCell.textContent += "(已檢查OK)";
                                     }
                                     if (j == hw.length - 1)
