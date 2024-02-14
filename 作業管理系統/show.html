@@ -87,17 +87,17 @@
                     columnNames.push("備註");
                     studata = studata.map((subArray, index) => {
                         var hw = hwdata.filter(row => row.classname == subArray.classname)[0].homework;
-                        subArray.homework = subArray.homework.map((element, i) => hw[i].toString() == "0" ?-1:element);
+                        subArray.homework = subArray.homework.map((element, i) => hw[i].toString() == "0" ? -1 : element);
                         return subArray;
                     });
                     studata = studata.map(subArray => {
                         subArray.homework = subArray.homework.filter(element => element != -1);
                         return subArray;
                     });
-                    hwdata = hwdata.map((subArray) => {
+                    hwdata = hwdata.slice(1).map((subArray) => {
                         subArray.homework.forEach((element, i) => {
                             if (element.toString() !== "0") {
-                                subArray.homework[i] = hwtype[i];
+                                subArray.homework[i] = hwtype[i] + subArray.homework[i];
                             }
                         });
                         return subArray;
@@ -128,7 +128,7 @@
                             var totalHomeworkCount = hwt.map((hw) => {
                                 // 计算当前 homework 中包含 hw 中任一字符串的数量
                                 const count = chw.homework.reduce((num, str) => {
-                                    if (str.includes(hw)) {
+                                    if (str[0].includes(hw)) {
                                         return num + 1;
                                     }
                                     return num;
@@ -145,10 +145,10 @@
                         }
                         var rows = [row];
                         var index = 0;
-                        cname.forEach(function (name,indexs) {
+                        cname.forEach(function (name, indexs) {
                             var rowspans = hwt.map(row => {
                                 var nums = chw.homework.reduce((num, r) => {
-                                    if (r.includes(row)) {
+                                    if (r[0].includes(row)) {
                                         return num + 1;
                                     } else {
                                         return num;
@@ -164,18 +164,18 @@
                             nameCell.setAttribute("rowspan", rowspan);
                             rows[index].appendChild(nameCell);
                             for (var i = 0; i < hwt.length; i++) {
-                                var hw = chw.homework.filter(row => row.includes(hwt[i]));
+                                var hw = chw.homework.filter(row => row[0].includes(hwt[i]));
                                 var index2 = index;
                                 for (var j = 0; j < hw.length; j++) {
                                     var hwCell = document.createElement("td");
-                                    hwCell.textContent = hw[j].slice(1, -3) + chw.homework[j];
-                                    if(cname[indexs].homework[j].toString()=="0"){
-                                        hwCell.textContent+="(未檢查)";
-                                    }else if(cname[indexs].homework[j].toString()=="1"){
-                                        hwCell.textContent+="(檢查不OK)";
-                                    }else{
+                                    hwCell.textContent = hw[j].slice(1);
+                                    if (cname[indexs].homework[j].toString() == "0") {
+                                        hwCell.textContent += "(未檢查)";
+                                    } else if (cname[indexs].homework[j].toString() == "1") {
+                                        hwCell.textContent += "(檢查不OK)";
+                                    } else {
                                         console.log(cname[indexs].homework[j].toString())
-                                        hwCell.textContent+="(已檢查OK)";
+                                        hwCell.textContent += "(已檢查OK)";
                                     }
                                     if (j == hw.length - 1)
                                         hwCell.setAttribute("rowspan", rowspan - hw.length + 1);

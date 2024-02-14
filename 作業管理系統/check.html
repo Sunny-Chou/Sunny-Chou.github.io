@@ -104,6 +104,8 @@
         var selectedhw;//選中學生的功課內容
         let hwt = [];//作業是範圍還是數字
         $(document).ready(function () {
+            $("#ok").hide();
+            $("#no").hide();
             axios.get(url).then(({ data }) => {
                 var account = sessionStorage.getItem("登入");
                 var s = true;
@@ -161,6 +163,8 @@
                     if ($('#homework option:selected').text().toString() == "") {
                         $("#state").html("");
                         $("#contents").html("");
+                        $("#ok").hide();
+                        $("#no").hide();
                     } else {
                         $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
                         var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
@@ -174,6 +178,8 @@
                                 $("#state").html("已檢查OK");
                             }
                         }
+                        $("#ok").show();
+                        $("#no").show();
                     }
                     selectedstu = stu.filter(row => row.classname.toString() === $('#classname option:selected').text().toString() && row.name.toString() === $('#name option:selected').text().toString())[0];
                     $("#classname").change(function () {
@@ -196,6 +202,8 @@
                         if ($('#homework option:selected').text().toString() == "") {
                             $("#state").html("");
                             $("#contents").html("");
+                            $("#ok").hide();
+                            $("#no").hide();
                         } else {
                             $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
                             var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
@@ -209,7 +217,10 @@
                                     $("#state").html("已檢查OK");
                                 }
                             }
+                            $("#ok").show();
+                            $("#no").show();
                         }
+                        selectedstu = stu.filter(row => row.classname.toString() === $('#classname option:selected').text().toString() && row.name.toString() === $('#name option:selected').text().toString())[0];
                     });
                     $("#type").change(function () {
                         $("#homework").empty();
@@ -222,6 +233,8 @@
                         if ($('#homework option:selected').text().toString() == "") {
                             $("#state").html("");
                             $("#contents").html("");
+                            $("#ok").hide();
+                            $("#no").hide();
                         } else {
                             $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
                             var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
@@ -235,12 +248,16 @@
                                     $("#state").html("已檢查OK");
                                 }
                             }
+                            $("#ok").show();
+                            $("#no").show();
                         }
                     });
                     $("#homework").change(function () {
                         if ($('#homework option:selected').text().toString() == "") {
                             $("#state").html("");
                             $("#contents").html("");
+                            $("#ok").hide();
+                            $("#no").hide();
                         } else {
                             $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
                             var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
@@ -254,6 +271,8 @@
                                     $("#state").html("已檢查OK");
                                 }
                             }
+                            $("#ok").show();
+                            $("#no").show();
                         }
                     });
                     $("#name").change(function () {
@@ -268,6 +287,8 @@
                         if ($('#homework option:selected').text().toString() == "") {
                             $("#state").html("");
                             $("#contents").html("");
+                            $("#ok").hide();
+                            $("#no").hide();
                         } else {
                             $("#contents").html(hw[hwtype.indexOf($('#type option:selected').text().toString() + $('#homework option:selected').text().toString())]);
                             var tempstate = stu.filter(row => row.name == $('#name option:selected').text())
@@ -281,6 +302,8 @@
                                     $("#state").html("已檢查OK");
                                 }
                             }
+                            $("#ok").show();
+                            $("#no").show();
                         }
                     });
                     $("#no").click(function () {

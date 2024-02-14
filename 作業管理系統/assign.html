@@ -126,6 +126,8 @@
         var classhw;//該班級的作業
         let hwt = [];//作業是範圍還是數字
         $(document).ready(function () {
+            $("#ok").hide();
+            $("#no").hide();
             const expirationTimeInMilliseconds = 600000;
             let timer;
             function resetTimer() {
@@ -154,6 +156,8 @@
                 }
                 axios.get(hwurl).then(({ data }) => {
                     hwdata = data;
+                    $("#ok").show();
+                    $("#no").show();
                     var options = hwdata.map(row => row.classname).slice(1);
                     options.forEach(function (option) {
                         var optionElement = document.createElement("option");
@@ -276,7 +280,7 @@
                                 if ($("#s").val() == $("#b").val()) {
                                     var newhw = "第" + $("#s").val() + $("#kind").html();
                                 } else {
-                                    if($("#s").val()>$("#b").val()){
+                                    if ($("#s").val() > $("#b").val()) {
                                         alert("右邊數字需>=左邊數字");
                                         return;
                                     }
