@@ -114,19 +114,14 @@
                         tr.appendChild(th);
                     });
                     thead.appendChild(tr);
-                    // 獲取表格的 tbody 元素
                     var tbody = document.querySelector("#t tbody");
                     var stus = [...new Set(studata.map(row => row.classname).slice(1))];
-                    // 遍歷數據，動態生成表格內容
                     stus.forEach(function (item, index) {
                         var chw = hwdata.filter(row => row.classname == item)[0];
                         var cname = studata.filter(row => row.classname == item);
-                        // 創建新的行元素
                         var row = document.createElement("tr");
-                        // 如果是每班的第一個學生，則在班級列中添加 rowspan 屬性
                         if (index === 0 || item !== studata[index - 1].classname) {
                             var totalHomeworkCount = hwt.map((hw) => {
-                                // 计算当前 homework 中包含 hw 中任一字符串的数量
                                 const count = chw.homework.reduce((num, str) => {
                                     if (str[0].includes(hw)) {
                                         return num + 1;

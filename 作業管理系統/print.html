@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>作業管理系統</title>
+    <style>
+        @media print {
+
+            input,
+            label,
+            br {
+                display: none;
+            }
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input {
+            height: 40px;
+            width: 100px;
+            border-radius: 50px;
+            border: 3px solid rgb(75, 54, 118);
+            font-size: 20px;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: rgb(75, 54, 118);
+            text-align: center;
+        }
+
+        label {
+            color: rgb(75, 54, 118);
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <label>作業格寬：</label><input type="number" id="hww" value="100" oninput="update()"><label>px</label><br>
+    <label>作業格高：</label><input type="number" id="hwh" value="60" oninput="update()"><label>px</label><br>
+    <label>備註格寬：</label><input type="number" id="bw" value="60" oninput="update()"><label>px</label>
+    <table id="t">
+        <thead>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script>
+        var url = "https://script.google.com/macros/s/AKfycbzIwxS8INYgGOys_7Ww5pia1Esd0ncSYCBXPNN8rT0crWmQsxcEM0nprDQWq5_1DqvHwg/exec";
+        var stuurl = "https://script.google.com/macros/s/AKfycbyWY69K8OpTj5laSoubzcOwBqgOR9yADinFNUFdbvxFYB7M6oQWtIXfWPY7wqwrVTWAfQ/exec";
+        var hwurl = "https://script.google.com/macros/s/AKfycbzf6kznWJNmu6dXpKleFVzOLYfP2EZYQ9RwDwj_cx2mnxNYDBIWMExq0Xl37LkhBt1-/exec";
+        var hwdata;
+        var studata;
+        var hwtype;
+        var hwt = [];
+        const expirationTimeInMilliseconds = 600000;
+        let timer;
+        function resetTimer() {
+            clearTimeout(timer);
+            timer = setTimeout(function () {
+                sessionStorage.removeItem('登入');
+            }, expirationTimeInMilliseconds);
+        }
+        document.addEventListener('mousemove', resetTimer);
+        document.addEventListener('keypress', resetTimer);
+        document.addEventListener('touchstart', resetTimer);
+        resetTimer();
+        function update() {
+            var thead = document.querySelector("#t thead");
+            thead.innerHTML = "";
+
+            var tr = document.createElement("tr");
+            var th = document.createElement("th");
+            th.textContent = '班級';
+            tr.appendChild(th);
+            var th = document.createElement("th");
+            th.textContent = '姓名';
+            tr.appendChild(th);
+            hwt.forEach(function (name) {
+                var th = document.createElement("th");
+                th.textContent = name;
+                th.setAttribute("width", $('#hww').val() + "px");
+                tr.appendChild(th);
+            });
+            var th = document.createElement("th");
+            th.textContent = '備註';
+            th.setAttribute("width", $('#bw').val() + "px");
+            tr.appendChild(th);
+            thead.appendChild(tr);
+            // 獲取表格的 tbody 元素
+            var tbody = document.querySelector("#t tbody");
+            tbody.innerHTML="";
+            var stus = [...new Set(studata.map(row => row.classname).slice(1))];
+            // 遍歷數據，動態生成表格內容
+            stus.forEach(function (item, index) {
+                var cname = studata.filter(row => row.classname == item);
+                var row = [document.createElement("tr")];
+                var classCell = document.createElement("td");
+                classCell.textContent = item;
+                classCell.setAttribute("rowspan", cname.length);
+                row[0].appendChild(classCell);
+                cname.forEach(function (name, indexs) {
+                    var nameCell = document.createElement("td");
+                    nameCell.textContent = name.name;
+                    nameCell.setAttribute("height", $('#hwh').val() + "px");
+                    row[indexs].appendChild(nameCell);
+                    hwt.forEach(function (element) {
+                        var hwCell = document.createElement("td");
+                        hwCell.textContent = "";
+                        row[indexs].appendChild(hwCell);
+                    })
+                    tbody.appendChild(row[indexs]);
+                    row.push(document.createElement("tr"));
+                })
+                var noteCell = document.createElement("td");
+                noteCell.textContent = "";
+                noteCell.setAttribute("rowspan", cname.length);
+                row[0].appendChild(noteCell);
+                for (var i = 0; i < row.length - 1; i++) {
+                    tbody.appendChild(row[i]);
+                }
+            });
+        }
+        axios.get(url).then(({ data }) => {
+            var account = sessionStorage.getItem("登入");
+            var s = true;
+            for (var i = 0; i < data.length; i++) {
+                if (data[i].account == account) {
+                    s = false;
+                    break;
+                }
+            }
+            if (s) {
+                sessionStorage.removeItem('登入');
+                alert("逾時沒有操作，請重新登入");
+                window.location = "index.html";
+            }
+            axios.get(stuurl).then(({ data }) => {
+                studata = data;
+                axios.get(hwurl).then(({ data }) => {
+                    hwdata = data;
+                    hwtype = hwdata[0].homework;
+                    var temp = hwtype[0].slice(0, 1);
+                    hwt.push(temp);
+                    for (var i = 0; i < hwtype.length; i++) {
+                        hwtype[i] = hwtype[i].slice(0, -1);
+                        if (temp != hwtype[i].slice(0, 1)) {
+                            temp = hwtype[i].slice(0, 1);
+                            hwt.push(temp)
+                        }
+                    }
+                    update();
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

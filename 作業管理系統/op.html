@@ -48,6 +48,9 @@
                 <button id="show">查看作業進度</button>
             </div>
             <div style="display: flex; align-items: center;">
+                <button id="print">列印空白單</button>
+            </div>
+            <div style="display: flex; align-items: center;">
                 <button id="update">更改所有資料</button>
             </div>
             <div style="display: flex; align-items: center;">
@@ -91,99 +94,22 @@
                 }
             });
             $("#assign").click(function () {
-                axios.get(url).then(({ data }) => {
-                    var account = sessionStorage.getItem("登入");
-                    var s = true;
-                    for (var i = 0; i < data.length; i++) {
-                        if (data[i].account == account) {
-                            s = false;
-                            break;
-                        }
-                    }
-                    if (s) {
-                        sessionStorage.removeItem('登入');
-                        alert("逾時沒有操作，請重新登入");
-                        window.location = "index.html";
-                    } else {
-                        window.location = "assign.html";
-                    }
-                });
+                window.location = "assign.html";
             });
             $("#check").click(function () {
-                axios.get(url).then(({ data }) => {
-                    var account = sessionStorage.getItem("登入");
-                    var s = true;
-                    for (var i = 0; i < data.length; i++) {
-                        if (data[i].account == account) {
-                            s = false;
-                            break;
-                        }
-                    }
-                    if (s) {
-                        sessionStorage.removeItem('登入');
-                        alert("逾時沒有操作，請重新登入");
-                        window.location = "index.html";
-                    } else {
-                        window.location = "check.html";
-                    }
-                });
+                window.location = "check.html";
             });
             $("#show").click(function () {
-                axios.get(url).then(({ data }) => {
-                    var account = sessionStorage.getItem("登入");
-                    var s = true;
-                    for (var i = 0; i < data.length; i++) {
-                        if (data[i].account == account) {
-                            s = false;
-                            break;
-                        }
-                    }
-                    if (s) {
-                        sessionStorage.removeItem('登入');
-                        alert("逾時沒有操作，請重新登入");
-                        window.location = "index.html";
-                    } else {
-                        window.location = "show.html";
-                    }
-                });
+                window.location = "show.html";
+            });
+            $("#print").click(function () {
+                window.location = "print.html";
             });
             $("#update").click(function () {
-                axios.get(url).then(({ data }) => {
-                    var account = sessionStorage.getItem("登入");
-                    var s = true;
-                    for (var i = 0; i < data.length; i++) {
-                        if (data[i].account == account) {
-                            s = false;
-                            break;
-                        }
-                    }
-                    if (s) {
-                        sessionStorage.removeItem('登入');
-                        alert("逾時沒有操作，請重新登入");
-                        window.location = "index.html";
-                    } else {
-                        window.location = "update.html";
-                    }
-                });
+                window.location = "update.html";
             });
             $("#pass").click(function () {
-                axios.get(url).then(({ data }) => {
-                    var account = sessionStorage.getItem("登入");
-                    var s = true;
-                    for (var i = 0; i < data.length; i++) {
-                        if (data[i].account == account) {
-                            s = false;
-                            break;
-                        }
-                    }
-                    if (s) {
-                        sessionStorage.removeItem('登入');
-                        alert("逾時沒有操作，請重新登入");
-                        window.location = "index.html";
-                    } else {
-                        window.location = "password.html";
-                    }
-                });
+                window.location = "password.html";
             });
             $("#logout").click(function () {
                 sessionStorage.removeItem('登入');
