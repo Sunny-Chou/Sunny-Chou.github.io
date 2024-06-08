@@ -4,7 +4,7 @@ const ServerSocket = WebSocket.Server;
 const app = express();
 const fs = require('fs');
 app.use(express.static('public'));
-const PORT = 3000;
+const PORT = process.env.PORT||80;
 const server = app.listen(PORT, () => console.log(`[Server] Listening on https://localhost:${PORT}`));
 const wss = new ServerSocket({ server });
 var room = [];
